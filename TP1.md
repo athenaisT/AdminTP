@@ -13,9 +13,15 @@ Controleur de domaines: Un contrôleur de domaine est un serveur qui répond aux
 Le contrôleur de domaine permet donc d'organiser et de sécuriser toutes les données
 
 Serveur Membre: Un serveur membre est un serveur  non domain Controller . il peut etre donc config selon les besoins en tant que serveur fichier, impression, web, applicatif, etc.
-Rôles: Les roles sont utilisé
 
-Fonctionnalités:
+Rôles: Les roles sont utilisé pour gérer l' acces des user finaux aux resoureces externes.
+les roles sont organiser en 4 types:
+  roles professionnel
+  roles informatique
+  applications
+  materiel
+
+Fonctionnalités: fonction implanté dens un system informatique permettant a l'utlisateur d'effectuer un traitement
 
 Groupe de travail: Dans les réseaux informatiques, un groupe de travail (workgroup en anglais) est un ensemble d'ordinateurs connectés sur un réseau local qui partagent des 
 ressources et des responsabilités communes.
