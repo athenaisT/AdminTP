@@ -12,6 +12,8 @@ suivre : https://technet365.fr/installation-active-directory-sur-windows-serveur
   - changer nom controleur domaine en CD
   - On suit technet (nous on met pas ad ds mais accitve directory domaines service)
   - On suit technet (le domaines name : ens.dom)
+  - on ajoute site en allant dans en haut droite tools puis active directory sites and services
+  - on ajoute ou en allant dans en haut droite tools puis active directory user and computer et on click sur dossier le + a droite en haut (c'est UTILISATEURS, ORDI)
   
   #penser a créer les 3 sites et les o.u des pc et utilisateur
 
