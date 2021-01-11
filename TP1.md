@@ -3,7 +3,7 @@
 
 schéma logique que niveau 3 (pas de switch, pas de vlan)
 
-**Pour TP1 manip vm1=> Cd**
+**Pour TP1 manip vm1=> Cd (Lyon)**
 on a del machines de base puis avec vmware on ouvre la vm enk2019 (celle sans c) et on suit infos puis on y met dans un rep
 puis clik droit vm on fait snapshoot, puis click droit vm setting -> option->enable template, puis click droit vm manage-> clone -> depuis snapshot -> linked clone.
 On lance le clone et suit étapes (do it later pour licence).
@@ -19,8 +19,14 @@ suivre : https://technet365.fr/installation-active-directory-sur-windows-serveur
 
 **FSMO**: Le Maître d'opérations (master operation en anglais) désigne certains types de contrôleurs de domaine dans Active Directory, de Microsoft. La dénomination FSMO signifie Flexible Single Master Operation.
   
- **Pour TP1 manip vm2**
-on va ouvrice 2k celle avec C, on va l'importer puis 
+ **Pour TP1 manip vm2 (Paris)**
+on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis on la clone
+ - mettre ip (172.31.1.2 pas passerelle)
+
+**Pour TP1 manip vm3 (Core)**
+on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis on la clone
+ - mettre ip (172.31.1.3 passerelle c'est l'adresse de CD)
+
 
 
 
