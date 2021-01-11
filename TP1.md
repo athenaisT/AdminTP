@@ -15,17 +15,24 @@ suivre : https://technet365.fr/installation-active-directory-sur-windows-serveur
   - on ajoute site en allant dans en haut droite tools puis active directory sites and services
   - on ajoute ou en allant dans en haut droite tools puis active directory user and computer et on click sur dossier le + a droite en haut (c'est UTILISATEURS, ORDI)
   
-  #penser a créer les 3 sites et les o.u des pc et utilisateur
 
-**FSMO**: Le Maître d'opérations (master operation en anglais) désigne certains types de contrôleurs de domaine dans Active Directory, de Microsoft. La dénomination FSMO signifie Flexible Single Master Operation.
+
+**FSMO**: Le Maître d'opérations (master operation en anglais) désigne certains types de contrôleurs de domaine dans Active Directory, de Microsoft. La dénomination FSMO signifie Flexible Single Master Operation.   
+Eviter de supprimer les roles il faut d'abors les migré sinon pete tout l'AD. Celui qui a le FSMO n'ai pas forcément le patron mais peut juste etre le garant des modif
   
- **Pour TP1 manip vm2 (Paris)**
+ **Pour TP1 manip vm2 core (Paris)**
 on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis on la clone
  - mettre ip (172.31.1.2 pas passerelle)
+ 
 
-**Pour TP1 manip vm3 (Core)**
+
+**Pour TP1 manip vm3 (Core enfaite c'est marseille)**
 on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis on la clone
  - mettre ip (172.31.1.3 passerelle c'est l'adresse de CD)
+
+https://social.technet.microsoft.com/Forums/fr-FR/9a763ad2-246b-4eb2-a840-484a64c591cd/configuration-initiale-de-windows-server-core-2012-r2-contribution-technet-priode-28042014?forum=windowsserver8fr 
+
+faire sconfig pour avoir interface bleu pour + de clik clik ( 8 -> 2 ----->
 
 
 
