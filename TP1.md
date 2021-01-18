@@ -46,7 +46,7 @@ on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis 
 https://social.technet.microsoft.com/Forums/fr-FR/9a763ad2-246b-4eb2-a840-484a64c591cd/configuration-initiale-de-windows-server-core-2012-r2-contribution-technet-priode-28042014?forum=windowsserver8fr 
 
 faire sconfig pour avoir interface bleu pour + de clik clik ( 8 -> 2 ----->
-
+Pour faire rejoindre le domaine : sconfig (1-> d-> nom domaine :ENS.dom, user:Administrator,mdp)
 
 
 
