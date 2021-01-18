@@ -52,5 +52,7 @@ pour mettre en fr : set console keymap -> generique 105 -> other -> french-> fre
 
 ajouter en physic (settings-> add ->W network adaptater)  les interfaces
 
+cf schéma claire (photo) sur vmnet2 mettre ip passerelle   + https://www.tutos.snatch-crash.fr/vyos-routeur-virtuel/ 
+vmnet3 tous les sites lié a lui
 
 DNAT (nat en entrée)
