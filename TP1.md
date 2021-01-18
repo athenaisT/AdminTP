@@ -37,7 +37,7 @@ Eviter de supprimer les roles il faut d'abors les migré sinon pete tout l'AD. C
 on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis on la clone
  - mettre ip (172.31.1.2 pas passerelle)
  il faut y mettre en vmnet 2 la vm
- Puis il faut cliquer sur le nom faire change et mettre le nom SRV1_M puis cliquer domaine :ENS.dom
+ Puis il faut cliquer sur le nom local server faire change et mettre le nom SRV1_M puis cliquer domaine :ENS.dom
  
 
 
