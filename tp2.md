@@ -42,6 +42,15 @@ Utilisateur:
         Compta
         Marketing
         Production
+**2:Script pour faire cette arbo**  # script doit etre fini pour atelier 3( février)
+on tape power dans vm-CD (power Shell ISE à choisir)
+New-ADOrganizationalUnit -Name "Lyon" -Path "OU=UTILISATEURS,DC=ENS,DC=dom"   (pour créer OU lyon) MAIS avant il faut faire les vyos
+
+**2,5 : VyOS (routeur virtuelle):**
+importe vm vyos(snapshot+clone)  (login: vyos   mdp: vyos )
+pour mettre en fr : set console keymap -> generique 105 -> other -> french-> french -> ok->ok
+
+ajouter en physic (settings-> add ->W network adaptater)  les interfaces
 
 
-
+DNAT (nat en entrée)
