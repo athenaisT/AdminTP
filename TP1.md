@@ -15,6 +15,7 @@ Donner les définitions de : Domaine Active directory, Serveur Autonome, Contrô
 
 
 notes: schéma logique que niveau 3 (pas de switch, pas de vlan)
+METTRE TOUT LES VM EN VMNET2
 
 **Pour TP1 manip vm1=> Cd (Lyon)**
 on a del machines de base puis avec vmware on ouvre la vm enk2019 (celle sans c) et on suit infos puis on y met dans un rep
@@ -27,7 +28,7 @@ suivre : https://technet365.fr/installation-active-directory-sur-windows-serveur
   - On suit technet (le domaines name : ens.dom)
   - on ajoute site en allant dans en haut droite tools puis active directory sites and services
   - on ajoute ou en allant dans en haut droite tools puis active directory user and computer et on click sur dossier le + a droite en haut (c'est UTILISATEURS, ORDI)
-  
+enlever parefeux sinon pb  
 
 
 **FSMO**: Le Maître d'opérations (master operation en anglais) désigne certains types de contrôleurs de domaine dans Active Directory, de Microsoft. La dénomination FSMO signifie Flexible Single Master Operation.   
@@ -43,7 +44,7 @@ on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis 
 
 **Pour TP1 manip vm3 (Core enfaite c'est Paris)**
 on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis on la clone
- - mettre ip (172.31.1.3 passerelle c'est l'adresse de CD)
+ - mettre ip (172.31.1.3 passerelle c'est l'adresse de CD) et celle du DNS (lyon)
 
 https://social.technet.microsoft.com/Forums/fr-FR/9a763ad2-246b-4eb2-a840-484a64c591cd/configuration-initiale-de-windows-server-core-2012-r2-contribution-technet-priode-28042014?forum=windowsserver8fr 
 
