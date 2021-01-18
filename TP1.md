@@ -1,7 +1,20 @@
 
 # Atelier n°1
 
-schéma logique que niveau 3 (pas de switch, pas de vlan)
+Schématiser les différents ordinateurs pour cet exercice et renseigner le nom d’ordinateur avec ses paramètres IP, vous ferez évoluez ce schéma au fil des Ateliers.
+
+Installer une version de Windows Server 2019  Standard dans VMware Workstation dans le VMnet 2
+
+Configurer votre machine avec comme nom CD, avec comme paramètres IP 172.31.X.1/16 qui seras sur le site de Lyon.
+
+Récupérer les Machines de Bases de Windows Server 2019 et Server 2019 Core. Décompressez les bases puis effectuer un clone lié de la Base Server 2019 et un clone lié de la base Server 2019 Core.
+
+Paramétrer vos deux clones pour qu’ils deviennent Serveur Membre du domaine ESN.dom, ils auront comme noms SRV1_M et SRV2C_P
+
+Donner les définitions de : Domaine Active directory, Serveur Autonome, Contrôleur de Domaine, Serveur Membre, Rôles, Fonctionnalités, Groupe de travail, Forêt
+
+
+notes: schéma logique que niveau 3 (pas de switch, pas de vlan)
 
 **Pour TP1 manip vm1=> Cd (Lyon)**
 on a del machines de base puis avec vmware on ouvre la vm enk2019 (celle sans c) et on suit infos puis on y met dans un rep
