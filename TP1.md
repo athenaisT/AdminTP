@@ -15,7 +15,7 @@ Donner les définitions de : Domaine Active directory, Serveur Autonome, Contrô
 
 
 notes: schéma logique que niveau 3 (pas de switch, pas de vlan)
-METTRE TOUT LES VM EN VMNET2
+METTRE TOUT LES VM EN VMNET2 (vm éteint => vm adaptater -> cutom vmnet2)
 
 **Pour TP1 manip vm1=> Cd (Lyon)**
 on a del machines de base puis avec vmware on ouvre la vm enk2019 (celle sans c) et on suit infos puis on y met dans un rep
