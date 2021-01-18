@@ -51,7 +51,7 @@ https://social.technet.microsoft.com/Forums/fr-FR/9a763ad2-246b-4eb2-a840-484a64
 faire sconfig pour avoir interface bleu pour + de clik clik ( 8 -> 2 ----->
 Pour faire rejoindre le domaine : sconfig (1-> d-> nom domaine :ENS.dom, user:Administrator,mdp)
 Pour vérifier si bien dans domaine :
-dans tools -> ad user & computer
+dans tools -> ad user & computer-> dossier computers
 WIN-05TKK2M5I60 c'est le core donc marseille
 
 
