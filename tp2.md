@@ -15,7 +15,33 @@ Créer un client par site géographiques.
 pour OU, Si y a que utilisateur ou ordi conditions pas respecter; toujours remplir description pour simplifier lecteru erreurs; créer utlisateur virtuelle qui supervise :supervision 
 regarder bien quand coche pour new object + dans propriete y a plein de chose à remplir
 automatiser remplissage car si plein de truc a remp peut se tromper; on gere plein de truc avec le script
+gérer en entrée , se mettre d'accord sur le filtrage comme ça on sais ou aller pour corriger
+On peut changer la destination du profil, il peut avoir son profil sur sa clé gentre U:profile et dés que la clé se monte il a son profil.
+si a systeme gpo si ajoute un membre y a des ruc mis en auto/remp selon regle
+
 
 pour retirer droit sur un dossier si a pas décocher pour OU: views -> advances feature -> dossier-> properties
+
+**1: faire arboresccences des utilisateur et ordi (OU)**
+Utilisateur:
+  -Lyon(OU)
+        Direction
+        Informatique
+        Compta
+        Marketing
+        Production
+  -Paris(OU)
+        Direction
+        Informatique
+        Compta
+        Marketing
+        Production
+  -Marseille(OU)
+        Direction
+        Informatique
+        Compta
+        Marketing
+        Production
+
 
 
