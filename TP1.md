@@ -33,13 +33,15 @@ suivre : https://technet365.fr/installation-active-directory-sur-windows-serveur
 **FSMO**: Le Maître d'opérations (master operation en anglais) désigne certains types de contrôleurs de domaine dans Active Directory, de Microsoft. La dénomination FSMO signifie Flexible Single Master Operation.   
 Eviter de supprimer les roles il faut d'abors les migré sinon pete tout l'AD. Celui qui a le FSMO n'ai pas forcément le patron mais peut juste etre le garant des modif
   
- **Pour TP1 manip vm2 core (Paris)**
+ **Pour TP1 manip vm2 (Marseille)**
 on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis on la clone
  - mettre ip (172.31.1.2 pas passerelle)
+ il faut y mettre en vmnet 2 la vm
+ Puis il faut cliquer sur le nom faire change et mettre le nom SRV1_M puis cliquer domaine :ENS.dom
  
 
 
-**Pour TP1 manip vm3 (Core enfaite c'est marseille)**
+**Pour TP1 manip vm3 (Core enfaite c'est Paris)**
 on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis on la clone
  - mettre ip (172.31.1.3 passerelle c'est l'adresse de CD)
 
@@ -47,6 +49,9 @@ https://social.technet.microsoft.com/Forums/fr-FR/9a763ad2-246b-4eb2-a840-484a64
 
 faire sconfig pour avoir interface bleu pour + de clik clik ( 8 -> 2 ----->
 Pour faire rejoindre le domaine : sconfig (1-> d-> nom domaine :ENS.dom, user:Administrator,mdp)
+Pour vérifier si bien dans domaine :
+dans tools -> ad user & computer
+WIN-05TKK2M5I60 c'est le core donc marseille
 
 
 
