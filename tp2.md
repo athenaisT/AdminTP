@@ -55,4 +55,41 @@ ajouter en physic (settings-> add ->W network adaptater)  les interfaces
 cf schéma claire (photo) sur vmnet2 mettre ip passerelle   + https://www.tutos.snatch-crash.fr/vyos-routeur-virtuel/ 
 vmnet3 tous les sites lié a lui
 
+=>/29 pour les inter-routeur:
+  Lyon (1)-Marseille(2)- Paris(3): 1.1.1.x
+
+---------------------------------------------------------------LYON----------------------------------------------------------------------------------------------
+Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm
+show interface
+configure
+set interfaces ethernet eth2 address dhcp (dhcp c'est pour internet)
+Pour mettre du vmnet3 sut du eth3(4e adaptateur) on fait dans les settings de la vm
+Puis on doit mettre la inrerouteur sur vmnet3 car c'est la que tout connecté
+set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau)
+set interfaces ethernet eth3 address 1.1.1.1/29   
+  ---------------------------------------------------------------Marseille----------------------------------------------------------------------------------------------
+Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm
+Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm
+show interface
+configure
+Puis on doit mettre l'ip inrerouteur sur vmnet3 car c'est la que tout connecté
+set interfaces ethernet eth2 address 1.1.1.2/29  
+set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau privé)
+  ---------------------------------------------------------------Paris----------------------------------------------------------------------------------------------
+Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm
+Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm
+show interface
+configure
+Puis on doit mettre l'ip inrerouteur sur vmnet3 car c'est la que tout connecté
+set interfaces ethernet eth2 address 1.1.1.3/29  
+set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau privé)
+
+eth1 c'est la ou y a vmnet2   et eth3 la ou ya vmnet3    commit +save pour save les modif    si veut enlever qql chose faire delete devant commande
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Important doit avoir le vyos vm allumer avec serveur car sinon peut pas ping (normal c'est le routeur)
+
+
+
 DNAT (nat en entrée)
