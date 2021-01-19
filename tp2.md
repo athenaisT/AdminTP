@@ -89,6 +89,7 @@ eth1 c'est la ou y a vmnet2   et eth3 la ou ya vmnet3    commit +save pour save 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Important doit avoir le vyos vm allumer avec serveur car sinon peut pas ping (normal c'est le routeur)
+https://www.tech2tech.fr/installation-dun-routeur-virtuel-leger-avec-vyos/ 
 
 
 
