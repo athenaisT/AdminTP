@@ -66,7 +66,11 @@ set interfaces ethernet eth2 address dhcp (dhcp c'est pour internet)
 Pour mettre du vmnet3 sut du eth3(4e adaptateur) on fait dans les settings de la vm
 Puis on doit mettre la inrerouteur sur vmnet3 car c'est la que tout connecté
 set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau)
-set interfaces ethernet eth3 address 1.1.1.1/29   
+set interfaces ethernet eth3 address 1.1.1.1/29  
+
+eth10->vmnet2  eth11->vmnet3   eth9->dhcp
+
+
   ---------------------------------------------------------------Marseille----------------------------------------------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm
 Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm
@@ -75,6 +79,8 @@ configure
 Puis on doit mettre l'ip inrerouteur sur vmnet3 car c'est la que tout connecté
 set interfaces ethernet eth2 address 1.1.1.2/29  
 set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau privé)
+
+eth7->vmnet2   eth4->vmnet3
   ---------------------------------------------------------------Paris----------------------------------------------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm
 Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm
@@ -84,12 +90,19 @@ Puis on doit mettre l'ip inrerouteur sur vmnet3 car c'est la que tout connecté
 set interfaces ethernet eth2 address 1.1.1.3/29  
 set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau privé)
 
-eth1 c'est la ou y a vmnet2   et eth3 la ou ya vmnet3    commit +save pour save les modif    si veut enlever qql chose faire delete devant commande
+eth6->vmnet2   eth7->vmnet3
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+ commit +save pour save les modif    si veut enlever qql chose faire delete devant commande
+ 
 Important doit avoir le vyos vm allumer avec serveur car sinon peut pas ping (normal c'est le routeur)
 https://www.tech2tech.fr/installation-dun-routeur-virtuel-leger-avec-vyos/ 
+
+**rip**
+Om met du rip car on a 3 routeurs :
+configure
+ set protocols rip interface <interface>(eth*=> celle qui ont vmnet3)
+
 
 
 
