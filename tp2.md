@@ -118,7 +118,8 @@ Il faut bien penser a mettre addresse dns + gateway
 SMlyon1-> 172.31.1.4
 SMLyon2->172.31.1.5
 SMMarseille->172.31.1.6
-SMParis->172.31.1.7     -> netsh interface ipv4 set address name=Ethernet0 static 172.31.1.7 255.255.0.0 172.31.1.254 -> netdom join SMP1 /domain :ESN.dom /ud :Administrator /pd :123+aze
+SMParis->172.31.1.7    -> netsh interface ipv4 set address name=Ethernet0 static 172.31.1.7 255.255.0.0 172.31.1.254 -> netdom join SMP1 /domain :ESN.dom /ud :Administrator /pd :123+aze
 
+pb les serveur memebre pin pas 8.8.8.8 (mais pinf bin cd lyon)
 
 DNAT (nat en entrée)
