@@ -109,7 +109,15 @@ Pour enlever les firewall de Paris(Core)
 
 **Serveur meembre**
 cloner pour avoir 2 serveur memebre pour lyon et 1 pour les 2 autre (pour paris c'est un core)
+Potentiellement changer addressage car potentiellement dans la merde
+Penser a les mettre en vmnet2
+Enlever les firewall
+Il faut bien penser a mettre addresse dns + gateway
 
+SMlyon1-> 172.31.1.4
+SMLyon2->172.31.1.5
+SMMarseille->172.31.1.6
+SMParis->172.31.1.7
 
 
 DNAT (nat en entrée)
