@@ -107,6 +107,8 @@ Pour enlever les firewall de Paris(Core)
   netsh advfirewall set privateprofil state off 
   netsh advfirewall set publicprofil state off.
 
+**Serveur meembre**
+cloner pour avoir 2 serveur memebre pour lyon et 1 pour les 2 autre (pour paris c'est un core)
 
 
 
