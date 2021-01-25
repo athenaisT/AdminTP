@@ -107,17 +107,18 @@ Pour enlever les firewall de Paris(Core)
   netsh advfirewall set privateprofil state off 
   netsh advfirewall set publicprofil state off.
 
-**Serveur meembre**
+**Serveur membre**
 cloner pour avoir 2 serveur memebre pour lyon et 1 pour les 2 autre (pour paris c'est un core)
 Potentiellement changer addressage car potentiellement dans la merde
 Penser a les mettre en vmnet2
 Enlever les firewall
 Il faut bien penser a mettre addresse dns + gateway
+(Si parfois pas internet c'est peut etre carte réseau qui est déco)
 
 SMlyon1-> 172.31.1.4
 SMLyon2->172.31.1.5
 SMMarseille->172.31.1.6
-SMParis->172.31.1.7
+SMParis->172.31.1.7     -> netsh interface ipv4 set address name=Ethernet0 static 172.31.1.7 255.255.0.0 172.31.1.254 -> netdom join SMP1 /domain :ESN.dom /ud :Administrator /pd :123+aze
 
 
 DNAT (nat en entrée)
