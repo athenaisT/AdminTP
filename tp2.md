@@ -102,6 +102,10 @@ https://www.tech2tech.fr/installation-dun-routeur-virtuel-leger-avec-vyos/
 Om met du rip car on a 3 routeurs :
 configure
  set protocols rip interface <interface>(eth*=> celle qui ont vmnet3)
+Pour enlever les firewall de Paris(Core) 
+  netsh advfirewall set domainprofil state off
+  netsh advfirewall set privateprofil state off 
+  netsh advfirewall set publicprofil state off.
 
 
 
