@@ -120,6 +120,12 @@ SMLyon2->172.31.1.5
 SMMarseille->172.31.1.6
 SMParis->172.31.1.7    -> netsh interface ipv4 set address name=Ethernet0 static 172.31.1.7 255.255.0.0 172.31.1.254 -> netdom join SMP1 /domain :ESN.dom /ud :Administrator /pd :123+aze
 
-pb les serveur memebre pin pas 8.8.8.8 (mais pinf bin cd lyon)
+**pb les serveur memebre pin pas 8.8.8.8 (mais pinf bin cd lyon)**
+
+**Client**
+https://www.microsoft.com/fr-fr/software-download/windows10
+del le windows puis faire une vm avec l'iso de windoms , lancer puis installé windoms
+
+
 
 DNAT (nat en entrée)
