@@ -125,6 +125,13 @@ SMParis->172.31.1.7    -> netsh interface ipv4 set address name=Ethernet0 static
 **Client**
 https://www.microsoft.com/fr-fr/software-download/windows10
 del le windows puis faire une vm avec l'iso de windoms , lancer puis installé windoms 
+Rep au question de sécu + user : Administrator   
+(compte hors connexion + c'est un perso / pas entreprise)
+clientLyon -> 172.31.1.8
+clientParis -> 172.31.1.9
+clientMarseille -> 172.31.1.10
+
+
 
 
 
