@@ -134,7 +134,7 @@ clientLyon -> 172.31.1.8  (user : Michel
 clientParis -> 172.31.1.9
 clientMarseille -> 172.31.1.10
 
-Pour faire rejoindre ens : windom+r -> sysdm.cpl puis modifier et on nomme le pc puis on selectionne le domaine ENS.dom
+Pour faire rejoindre ens : windom+r -> sysdm.cpl puis modifier et on nomme le pc puis on selectionne le domaine ENS.dom (attention parfois faut s'amuser avec les réseau car sinon fonctionne pas)
 
 
 
