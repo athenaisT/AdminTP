@@ -78,7 +78,7 @@ Pour savoir le num adaptateur on peut show int quand on déco un adataptateur en
 
  commit +save pour save les modif    si veut enlever qql chose faire delete devant commande </b>
  
- ---------------------------------------------------------------Marseille------------------------------------------------------------------
+ ---------------------------------------------------------------Marseille------------------------------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm </br>
 Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm </br>
 show interface </br>
@@ -90,7 +90,7 @@ set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau p
 eth7->vmnet2   eth4->vmnet3 </br>
 
  commit +save pour save les modif    si veut enlever qql chose faire delete devant commande
-  ---------------------------------------------------------------Paris-----------------------------------------------------------------------
+  ---------------------------------------------------------------Paris--------------------------------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm </br>
 Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm </br>
 show interface </br>
