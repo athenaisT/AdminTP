@@ -27,24 +27,24 @@ pour retirer droit sur un dossier si a pas décocher pour OU: views -> advances 
 **1: faire arboresccences des utilisateur et ordi (OU)**</br>
 Modifier au final on a Sites(lyon,paris,marseille) ou dedans on a service et computer comme dossier, et dans services on a Direction, Informatique, Compta, Marketing, Production 
 Utilisateur:
-  -Lyon(OU)
-        Direction
-        Informatique
-        Compta
-        Marketing
-        Production
-  -Paris(OU)
-        Direction
-        Informatique
-        Compta
-        Marketing
-        Production
-  -Marseille(OU)
-        Direction
-        Informatique
-        Compta
-        Marketing
-        Production
+  - Lyon(OU)
+        - Direction
+        - Informatique
+        - Compta
+        - Marketing
+        - Production
+  - Paris(OU)
+        - Direction
+        - Informatique
+        - Compta
+        - Marketing
+        - Production
+  - Marseille(OU)
+        - Direction
+        - Informatique
+        - Compta
+        - Marketing
+        - Production
 **2:Script pour faire cette arbo**  # script doit etre fini pour atelier 3( février)
 on tape power dans vm-CD (power Shell ISE à choisir)
 New-ADOrganizationalUnit -Name "Lyon" -Path "OU=UTILISATEURS,DC=ENS,DC=dom"   (pour créer OU lyon) MAIS avant il faut faire les vyos
