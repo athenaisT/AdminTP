@@ -1,4 +1,4 @@
-# atelier 3
+# Atelier 3
 
 GPO penser a ce que stratégie soit sur user ET ordi
 Y' a des empillages de gpo, il faut voir les priorité
@@ -34,6 +34,6 @@ On créer une gpo dans group mangement policies dans group object et puis edit l
 policies->softaware->new package et on selection nottpad puis on va aller dans les services informatiques (lyon, paris, marseille) et on va linked existing gpo 
 et on sellectionne celle de nottepadd. (pas pareille que zip ca r zip que pour lyon).
 
-**pour supprimer supprimer le menu Exécuter pour l’ensemble du Domaine mais les membres du service Informatique on cette commande**
+**pour supprimer le menu Exécuter pour l’ensemble du Domaine mais les membres du service Informatique on cette commande**
 
-
+on creer une gpo pui quand click normal dessu il a un onglet delegation -> advenced-> on va add informatique puis cocher dans deny aply group policies
