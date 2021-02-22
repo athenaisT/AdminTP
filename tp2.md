@@ -116,7 +116,7 @@ Potentiellement changer addressage car potentiellement dans la merde
 Penser a les mettre en vmnet2
 Enlever les firewall
 Il faut bien penser a mettre addresse dns + gateway
-(Si parfois pas internet c'est peut etre carte réseau qui est déco)
+(Si parfois pas internet c'est peut etre carte réseau qui est déco) 
 
 SMlyon1-> 172.31.1.4
 SMLyon2->172.31.1.5
