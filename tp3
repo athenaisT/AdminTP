@@ -20,16 +20,20 @@ account policies ->password->puis on modif en fonction du sujet
 
 **Pour regle service informatique**
 
-On fait pso (strategie de mdp)
+**On fait pso (strategie de mdp)**
 On fait un nouveau groupes dans les site, informatique
 puis on va dans tools -> active center (le 1e)-> puis dans ens(local)-> system-> password setting-> new puis config (on y add dans le group informatique créer)
 
-Pour on veut que les lyonnais et zip
+**Pour on veut que les lyonnais et zip**
 On va télécharger le msi de 7zip
 On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> 
 policies->softaware->new package et on selection 7zip
 
-pour notepad
+**pour notepad**
 del notepad++ msi
 On créer une gpo dans group mangement policies dans group object et on va lui add informatique puis edit le gpo on va dans computer-> 
 policies->softaware->new package et on selection nottpad
+
+**pour supprimer supprimer le menu Exécuter pour l’ensemble du Domaine mais les membres du service Informatique on cette commande**
+
+
