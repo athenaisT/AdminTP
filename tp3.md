@@ -10,8 +10,7 @@ default domain policie, on ne touche jamais ce qui est fait par défaut donc si 
 **Default domain policie**
 si besoin internet met en nat une 2e adaptateur car vyos se deconf si change d'ordi
 On fait tools puis user and computer on va dans Sites (lyon, Marseille, Paris) et on créer un groupe Responsable (new -> group)
-Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security->local policies 
-->user right ->allow log only
+Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security->local policies ->user right ->allow log only
 
 
 **Le mot de passe ne peut être repris pendant une année
