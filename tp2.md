@@ -1,5 +1,7 @@
 # TP 2
 
+**SUJET**</br>
+
 Création de l’arborescence Active Directory sur du papier, nous essaierons d’automatiser les créations des OU.  
 Pour chacun des services créez 30 utilisateurs : 2 responsable RD pour le Responsable Direction   
 Nous utiliserons un script PowerShell fournit pour les noms des utilisateurs.  
@@ -22,7 +24,7 @@ si a systeme gpo si ajoute un membre y a des ruc mis en auto/remp selon regle
 
 pour retirer droit sur un dossier si a pas décocher pour OU: views -> advances feature -> dossier-> properties
 
-**1: faire arboresccences des utilisateur et ordi (OU)**
+**1: faire arboresccences des utilisateur et ordi (OU)**</br>
 Modifier au final on a Sites(lyon,paris,marseille) ou dedans on a service et computer comme dossier, et dans services on a Direction, Informatique, Compta, Marketing, Production 
 Utilisateur:
   -Lyon(OU)
