@@ -36,4 +36,5 @@ et on sellectionne celle de nottepadd. (pas pareille que zip ca r zip que pour l
 
 **pour supprimer le menu Exécuter pour l’ensemble du Domaine mais les membres du service Informatique on cette commande**
 
-on creer une gpo pui quand click normal dessu il a un onglet delegation -> advenced-> on va add informatique puis cocher dans deny aply group policies
+on creer une gpo pui quand click normal dessu il a un onglet delegation -> advenced-> on va add informatique puis cocher dans deny aply group policies et on va edit 
+puis -> user-> admin-> start menu->double click et on va mettre en enable.
