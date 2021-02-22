@@ -70,6 +70,8 @@ set interfaces ethernet eth3 address 1.1.1.1/29
 
 eth10->vmnet2  eth11->vmnet3   eth9->dhcp
 
+Pour savoir le num adaptateur on peut show int quand on déco un adataptateur en bas à droite.
+
 
   ---------------------------------------------------------------Marseille----------------------------------------------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm
