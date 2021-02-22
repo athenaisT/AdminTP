@@ -1,4 +1,4 @@
-# Atelier 3
+# Atelier n° 3
 
 GPO penser a ce que stratégie soit sur user ET ordi </br>
 Y' a des empillages de gpo, il faut voir les priorité </br>
