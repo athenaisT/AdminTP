@@ -45,6 +45,7 @@ Utilisateur:
         - Compta
         - Marketing
         - Production </br>
+
 **2:Script pour faire cette arbo**  # script doit etre fini pour atelier 3( février) </br>
 on tape power dans vm-CD (power Shell ISE à choisir)
 New-ADOrganizationalUnit -Name "Lyon" -Path "OU=UTILISATEURS,DC=ENS,DC=dom"   (pour créer OU lyon) MAIS avant il faut faire les vyos
