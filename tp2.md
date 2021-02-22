@@ -78,7 +78,7 @@ Pour savoir le num adaptateur on peut show int quand on déco un adataptateur en
 
  commit +save pour save les modif    si veut enlever qql chose faire delete devant commande </b>
  
- ---------------------------------------------------------------Marseille-------------------------------------------------------------------------------
+ ---------------------------------------------------------------Marseille-------------------------------------------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm </br>
 Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm </br>
 show interface </br>
@@ -91,7 +91,7 @@ eth7->vmnet2   eth4->vmnet3 </br>
 
  commit +save pour save les modif    si veut enlever qql chose faire delete devant commande</b>
  
-  ---------------------------------------------------------------Paris-----------------------------------------------------------------------------------
+  ---------------------------------------------------------------Paris---------------------------------------------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm </br>
 Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm </br>
 show interface </br>
@@ -104,7 +104,7 @@ eth6->vmnet2   eth7->vmnet3 </br>
 
 commit +save pour save les modif    si veut enlever qql chose faire delete devant commande</b>
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  
 Important doit avoir le vyos vm allumer avec serveur car sinon peut pas ping (normal c'est le routeur)
