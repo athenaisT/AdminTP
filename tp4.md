@@ -10,6 +10,7 @@ Placer les groupes Globaux dans les groupes de domaine Locaux de la manière sui
   - G_Informatique, G_Comptabilite, G_Marketing sont dans le groupe DL_Lecture_Ressources
   - G_Production est dans le groupe DL_Refuser_Ressources
 
+
 - Le responsable informatique doit faire partie du groupe Administrateur du domaine, l’employé n°1 doit être membre des groupes Opérateur d’impression, 
 de sauvegarde, de compte et de serveur, le second membre du groupe Lecteur des journaux d’évènements, utilisateur de l’analyseur de performances et utilisateur du journal de 
 performance
