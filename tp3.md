@@ -59,4 +59,9 @@ ensuite sur un autre serveur memebre on créer un fichier sauvegarde et on y cop
 
 L S D Ou   => ordre des executions des strategies de groupe des gpo
 
+>Local : la GPO d’ordinateur qui est la première crée lorsque l’ordinateur est installé.
+>Site : une GPO de site.
+>Domaine : une GPO qui applique des paramètres communs à l’ensemble du domaine.
+>OU : Unité d’Organisation Active Directory dans lesquelles des utilisateurs, ordinateurs, groupes et autres OU peuvent être stockés
+
 
