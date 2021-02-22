@@ -23,6 +23,7 @@ si a systeme gpo si ajoute un membre y a des ruc mis en auto/remp selon regle
 pour retirer droit sur un dossier si a pas décocher pour OU: views -> advances feature -> dossier-> properties
 
 **1: faire arboresccences des utilisateur et ordi (OU)**
+Modifier au final on a Sites(lyon,paris,marseille) ou dedans on a service et computer comme dossier, et dans services on a Direction, Informatique, Compta, Marketing, Production 
 Utilisateur:
   -Lyon(OU)
         Direction
