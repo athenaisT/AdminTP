@@ -130,10 +130,11 @@ https://www.microsoft.com/fr-fr/software-download/windows10
 del le windows puis faire une vm avec l'iso de windoms , lancer puis installé windoms 
 Rep au question de sécu + user : Administrator   
 (compte hors connexion + c'est un perso / pas entreprise)
-clientLyon -> 172.31.1.8
+clientLyon -> 172.31.1.8  (user : Michel
 clientParis -> 172.31.1.9
-clientMarseille -> 172.31.1.13
+clientMarseille -> 172.31.1.10
 
+Pour faire rejoindre ens : windom+r -> sysdm.cpl puis modifier et on nomme le pc puis on selectionne le domaine ENS.dom
 
 
 
