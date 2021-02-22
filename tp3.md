@@ -49,15 +49,14 @@ puis -> user-> admin-> start menu->double click et on va mettre en enable.
 
 **Sauvegarder l’ensemble des GPO du Domaine un serveur membre de votre choix. Discussion sur la sauvegarde des GPO et leur restauration**
 
+https://www.it-connect.fr/chapitres/sauvegarde-et-restauration-des-strategies-de-groupe-gpo/ 
 
-
-
-
-
+dans les tools -> group management policies on va dans les gpo et on clique droit sur le fichier et on fait backup (emplacement c'est la ouon va y copier ici une clé USB)
+ensuite sur un autre serveur memebre on créer un fichier sauvegarde et on y copirera dedans(ici serveur Memebre c'est celui de marseille) 
 
 
 --------------------------------
 
-L S D Ou   =>ordre des executions des strategies de groupe des gpo
+L S D Ou   => ordre des executions des strategies de groupe des gpo
 
 
