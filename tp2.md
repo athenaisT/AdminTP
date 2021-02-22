@@ -62,7 +62,7 @@ vmnet3 tous les sites lié a lui
 =>/29 pour les inter-routeur:
   Lyon (1)-Marseille(2)- Paris(3): 1.1.1.x
 
----------------------------------------------------------------LYON----------------------------------------------------------------------------------------------
+---------------------------------------------------------------LYON---------------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm  </br>
 show interface  </br>
 configure  </br>
@@ -76,8 +76,8 @@ eth10->vmnet2  eth11->vmnet3   eth9->dhcp</br>
 
 Pour savoir le num adaptateur on peut show int quand on déco un adataptateur en bas à droite.</br>
 
-
-  ---------------------------------------------------------------Marseille----------------------------------------------------------------------------------------------
+ commit +save pour save les modif    si veut enlever qql chose faire delete devant commande
+  ---------------------------------------------------------------Marseille------------------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm </br>
 Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm </br>
 show interface </br>
@@ -87,7 +87,9 @@ set interfaces ethernet eth2 address 1.1.1.2/29   </br>
 set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau privé)  </br>
 
 eth7->vmnet2   eth4->vmnet3 </br>
-  ---------------------------------------------------------------Paris----------------------------------------------------------------------------------------------
+
+ commit +save pour save les modif    si veut enlever qql chose faire delete devant commande
+  ---------------------------------------------------------------Paris-----------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm </br>
 Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm </br>
 show interface </br>
@@ -98,8 +100,10 @@ set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau p
 
 eth6->vmnet2   eth7->vmnet3 </br>
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- commit +save pour save les modif    si veut enlever qql chose faire delete devant commande
+commit +save pour save les modif    si veut enlever qql chose faire delete devant commande
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
  
 Important doit avoir le vyos vm allumer avec serveur car sinon peut pas ping (normal c'est le routeur)
 https://www.tech2tech.fr/installation-dun-routeur-virtuel-leger-avec-vyos/ 
