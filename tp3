@@ -28,3 +28,8 @@ Pour on veut que les lyonnais et zip
 On va télécharger le msi de 7zip
 On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> 
 policies->softaware->new package et on selection 7zip
+
+pour notepad
+del notepad++ msi
+On créer une gpo dans group mangement policies dans group object et on va lui add informatique puis edit le gpo on va dans computer-> 
+policies->softaware->new package et on selection nottpad
