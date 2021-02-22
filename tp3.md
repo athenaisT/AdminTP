@@ -10,14 +10,14 @@ default domain policie, on ne touche jamais ce qui est fait par défaut donc si 
 **Default domain policie**
 si besoin internet met en nat une 2e adaptateur car vyos se deconf si change d'ordi </br>
 On fait tools puis user and computer on va dans Sites (lyon, Marseille, Paris) et on créer un groupe Responsable (new -> group) </br>
-Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security->local </br>policies ->user right ->allow log only
+Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security->local policies ->user right ->allow log only
 
 
 **Le mot de passe ne peut être repris pendant une année
 Il doit être changé au moins une fois tous les trente jours et doit être complexe et doit être composé de cinq caractères minimum.**
 **quand change les truc pour mot de passe**
 Normalement il aurrait fallut faire une pso pour tout le monde! </br>
-Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security-> </br>
+Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security-> 
 account policies ->password->puis on modif en fonction du sujet
 
 **Pour regle service informatique**
@@ -33,7 +33,7 @@ puis on va dans tools -> active center (le 1e)-> puis dans ens(local)-> system->
 On va télécharger le msi de 7zip </br>
 On va créer un dossier partager: dans la gauche du menu de base, on à file and storage; puis share -> new->selct puis next tout le temps (a part pour le nom) </br>
 Puis on va dans explorateur de fichier pour trouver notre dossier et on va y glisser les appli voulues. </br>
-On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> </br>
+On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> 
 policies->softaware->new package et on selection 7zip dans le dossier shares créer
 
 **pour notepad**</br>
@@ -44,7 +44,7 @@ et on sellectionne celle de nottepadd du shares. (pas pareille que zip ca r zip 
 
 **pour supprimer le menu Exécuter pour l’ensemble du Domaine mais les membres du service Informatique on cette commande**
 
-on creer une gpo pui quand click normal dessu il a un onglet delegation -> advenced-> on va add informatique puis cocher dans deny aply group policies et on va edit </br>
+on creer une gpo pui quand click normal dessu il a un onglet delegation -> advenced-> on va add informatique puis cocher dans deny aply group policies et on va edit 
 puis -> user-> admin-> start menu->double click et on va mettre en enable.</br>
 
 **Sauvegarder l’ensemble des GPO du Domaine un serveur membre de votre choix. Discussion sur la sauvegarde des GPO et leur restauration**</br>
