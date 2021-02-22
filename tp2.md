@@ -44,12 +44,12 @@ Utilisateur:
         - Informatique
         - Compta
         - Marketing
-        - Production
-**2:Script pour faire cette arbo**  # script doit etre fini pour atelier 3( février)
+        - Production </br>
+**2:Script pour faire cette arbo**  # script doit etre fini pour atelier 3( février) </br>
 on tape power dans vm-CD (power Shell ISE à choisir)
 New-ADOrganizationalUnit -Name "Lyon" -Path "OU=UTILISATEURS,DC=ENS,DC=dom"   (pour créer OU lyon) MAIS avant il faut faire les vyos
 
-**2,5 : VyOS (routeur virtuelle):**
+**2,5 : VyOS (routeur virtuelle):** </br>
 importe vm vyos(snapshot+clone)  (login: vyos   mdp: vyos )
 pour mettre en fr : set console keymap -> generique 105 -> other -> french-> french -> ok->ok
 
@@ -103,7 +103,7 @@ eth6->vmnet2   eth7->vmnet3 </br>
 Important doit avoir le vyos vm allumer avec serveur car sinon peut pas ping (normal c'est le routeur)
 https://www.tech2tech.fr/installation-dun-routeur-virtuel-leger-avec-vyos/ 
 
-**rip**
+**rip** </br>
 Om met du rip car on a 3 routeurs :
 configure
  set protocols rip interface <interface>(eth*=> celle qui ont vmnet3)
@@ -112,7 +112,7 @@ Pour enlever les firewall de Paris(Core)
   netsh advfirewall set privateprofil state off 
   netsh advfirewall set publicprofil state off.
 
-**Serveur membre**
+**Serveur membre** </br>
 cloner pour avoir 2 serveur memebre pour lyon et 1 pour les 2 autre (pour paris c'est un core)
 Potentiellement changer addressage car potentiellement dans la merde
 Penser a les mettre en vmnet2
@@ -127,14 +127,14 @@ SMParis->172.31.1.7    -> netsh interface ipv4 set address name=Ethernet0 static
 
 **pb les serveur memebre pin pas 8.8.8.8 (mais pinf bin cd lyon)**
 
-**Client**
+**Client** </br>
 https://www.microsoft.com/fr-fr/software-download/windows10
 del le windows puis faire une vm avec l'iso de windoms , lancer puis installé windoms 
 Rep au question de sécu + user : Administrator   
 (compte hors connexion + c'est un perso / pas entreprise)
-clientLyon -> 172.31.1.8  (user : Michel
-clientParis -> 172.31.1.9
-clientMarseille -> 172.31.1.10
+clientLyon -> 172.31.1.8  (user : Michel)</br>
+clientParis -> 172.31.1.9 </br>
+clientMarseille -> 172.31.1.10 </br>
 
 Pour faire rejoindre ens : windom+r -> sysdm.cpl puis modifier et on nomme le pc puis on selectionne le domaine ENS.dom (attention parfois faut s'amuser avec les réseau car sinon fonctionne pas)
 
