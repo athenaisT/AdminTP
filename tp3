@@ -1,1 +1,7 @@
+# atelier 3
+
+
 GPO penser a ce que stratégie soit sur user ET ordi
+Y' a des empillages de gpo, il faut voir les priorité
+chercher executable de type msi.
+default domain policie, on ne touche jamais ce qui est fait par défaut donc si peut soit créer un doublons soit on let un mdp fort dessus.
