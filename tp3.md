@@ -48,3 +48,14 @@ puis -> user-> admin-> start menu->double click et on va mettre en enable.
 **Sauvegarder l’ensemble des GPO du Domaine un serveur membre de votre choix. Discussion sur la sauvegarde des GPO et leur restauration**
 
 
+
+
+
+
+
+
+--------------------------------
+
+L S D Ou   =>ordre des executions des strategies de groupe des gpo
+
+
