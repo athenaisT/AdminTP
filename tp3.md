@@ -30,7 +30,7 @@ puis on va dans tools -> active center (le 1e)-> puis dans ens(local)-> system->
 **Les postes du site de Lyon doivent avoir le programme 7zip et les membres du service Informatique utilisent le programme Notepad++, par contre le logiciel doit être masqué si une autre personne se sert du PC.**
 
 **Pour on veut que les lyonnais et zip** </br>
-On va télécharger le msi de 7zip </br>
+On va télécharger le msi de 7zip , du coup on met la gpo dans le site lyon</br>
 On va créer un dossier partager: dans la gauche du menu de base, on à file and storage; puis share -> new->selct puis next tout le temps (a part pour le nom) </br>
 Puis on va dans explorateur de fichier pour trouver notre dossier et on va y glisser les appli voulues. </br>
 On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> 
