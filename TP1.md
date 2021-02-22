@@ -1,23 +1,23 @@
 
 # Atelier n°1
 
-Schématiser les différents ordinateurs pour cet exercice et renseigner le nom d’ordinateur avec ses paramètres IP, vous ferez évoluez ce schéma au fil des Ateliers.
+Schématiser les différents ordinateurs pour cet exercice et renseigner le nom d’ordinateur avec ses paramètres IP, vous ferez évoluez ce schéma au fil des Ateliers.</br>
 
-Installer une version de Windows Server 2019  Standard dans VMware Workstation dans le VMnet 2
+Installer une version de Windows Server 2019  Standard dans VMware Workstation dans le VMnet 2 </br>
 
-Configurer votre machine avec comme nom CD, avec comme paramètres IP 172.31.X.1/16 qui seras sur le site de Lyon.
+Configurer votre machine avec comme nom CD, avec comme paramètres IP 172.31.X.1/16 qui seras sur le site de Lyon. </br>
 
-Récupérer les Machines de Bases de Windows Server 2019 et Server 2019 Core. Décompressez les bases puis effectuer un clone lié de la Base Server 2019 et un clone lié de la base Server 2019 Core.
+Récupérer les Machines de Bases de Windows Server 2019 et Server 2019 Core. Décompressez les bases puis effectuer un clone lié de la Base Server 2019 et un clone lié de la base Server 2019 Core.</br>
 
-Paramétrer vos deux clones pour qu’ils deviennent Serveur Membre du domaine ESN.dom, ils auront comme noms SRV1_M et SRV2C_P
+Paramétrer vos deux clones pour qu’ils deviennent Serveur Membre du domaine ESN.dom, ils auront comme noms SRV1_M et SRV2C_P</br>
 
-Donner les définitions de : Domaine Active directory, Serveur Autonome, Contrôleur de Domaine, Serveur Membre, Rôles, Fonctionnalités, Groupe de travail, Forêt
+Donner les définitions de : Domaine Active directory, Serveur Autonome, Contrôleur de Domaine, Serveur Membre, Rôles, Fonctionnalités, Groupe de travail, Forêt</br>
 
 
-notes: schéma logique que niveau 3 (pas de switch, pas de vlan)
-METTRE TOUT LES VM EN VMNET2 (vm éteint => vm adaptater -> cutom vmnet2)
+notes: schéma logique que niveau 3 (pas de switch, pas de vlan)</br>
+METTRE TOUT LES VM EN VMNET2 (vm éteint => vm adaptater -> cutom vmnet2)</br>
 
-**Pour TP1 manip vm1=> Cd (Lyon)**
+**Pour TP1 manip vm1=> Cd (Lyon)**</br>
 on a del machines de base puis avec vmware on ouvre la vm enk2019 (celle sans c) et on suit infos puis on y met dans un rep
 puis clik droit vm on fait snapshoot, puis click droit vm setting -> option->enable template, puis click droit vm manage-> clone -> depuis snapshot -> linked clone.
 On lance le clone et suit étapes (do it later pour licence).
@@ -34,7 +34,7 @@ enlever parefeux sinon pb
 **FSMO**: Le Maître d'opérations (master operation en anglais) désigne certains types de contrôleurs de domaine dans Active Directory, de Microsoft. La dénomination FSMO signifie Flexible Single Master Operation.   
 Eviter de supprimer les roles il faut d'abors les migré sinon pete tout l'AD. Celui qui a le FSMO n'ai pas forcément le patron mais peut juste etre le garant des modif
   
- **Pour TP1 manip vm2 (Marseille)**
+ **Pour TP1 manip vm2 (Marseille)** </br>
 on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis on la clone
  - mettre ip (172.31.1.2 pas passerelle)
  il faut y mettre en vmnet 2 la vm
@@ -42,17 +42,17 @@ on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis 
  
 
 
-**Pour TP1 manip vm3 (Core enfaite c'est Paris)**
+**Pour TP1 manip vm3 (Core enfaite c'est Paris)**</br>
 on va ouvrice 2k sans c, on va l'importer puis on met template et snapshot puis on la clone
  - mettre ip (172.31.1.3 passerelle c'est l'adresse de CD) et celle du DNS (lyon)
 
 https://social.technet.microsoft.com/Forums/fr-FR/9a763ad2-246b-4eb2-a840-484a64c591cd/configuration-initiale-de-windows-server-core-2012-r2-contribution-technet-priode-28042014?forum=windowsserver8fr 
 
-faire sconfig pour avoir interface bleu pour + de clik clik ( 8 -> 2 ----->
-Pour faire rejoindre le domaine : sconfig (1-> d-> nom domaine :ENS.dom, user:Administrator,mdp)
-Pour vérifier si bien dans domaine :
-dans tools -> ad user & computer-> dossier computers
-WIN-05TKK2M5I60 c'est le core donc marseille
+faire sconfig pour avoir interface bleu pour + de clik clik ( 8 -> 2 -----> </br>
+Pour faire rejoindre le domaine : sconfig (1-> d-> nom domaine :ENS.dom, user:Administrator,mdp) </br>
+Pour vérifier si bien dans domaine : </br>
+dans tools -> ad user & computer-> dossier computers </br>
+WIN-05TKK2M5I60 c'est le core donc marseille </br>
 
 
 
@@ -73,12 +73,12 @@ Le contrôleur de domaine permet donc d'organiser et de sécuriser toutes les do
 
 **Serveur Membre:** Un serveur membre est un serveur  non domain Controller . il peut etre donc config selon les besoins en tant que serveur fichier, impression, web, applicatif, etc.
 
-**Rôles:** Les roles sont utilisé pour gérer l'acces des user finaux aux resources externes.
-les roles sont organiser en 4 types:
- - roles professionnel
- - roles informatique
- - applications
- - materiel
+**Rôles:** Les roles sont utilisé pour gérer l'acces des user finaux aux resources externes.</br>
+les roles sont organiser en 4 types: </br>
+ - roles professionnel </br>
+ - roles informatique </br>
+ - applications </br>
+ - materiel </br>
 
 **Fonctionnalités:** fonction implanté dens un system informatique permettant a l'utlisateur d'effectuer un traitement
 
