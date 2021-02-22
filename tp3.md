@@ -34,13 +34,13 @@ On va télécharger le msi de 7zip
 On va créer un dossier partager: dans la gauche du menu de base, on à file and storage; puis share -> new->selct puis next tout le temps (a part pour le nom)
 Puis on va dans explorateur de fichier pour trouver notre dossier et on va y glisser les appli voulues.
 On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> 
-policies->softaware->new package et on selection 7zip
+policies->softaware->new package et on selection 7zip dans le dossier shares créer
 
 **pour notepad**
 del notepad++ msi
 On créer une gpo dans group mangement policies dans group object et puis edit le gpo on va dans computer-> 
 policies->softaware->new package et on selection nottpad puis on va aller dans les services informatiques (lyon, paris, marseille) et on va linked existing gpo 
-et on sellectionne celle de nottepadd. (pas pareille que zip ca r zip que pour lyon).
+et on sellectionne celle de nottepadd du shares. (pas pareille que zip ca r zip que pour lyon).
 
 **pour supprimer le menu Exécuter pour l’ensemble du Domaine mais les membres du service Informatique on cette commande**
 
