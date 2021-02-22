@@ -62,7 +62,7 @@ vmnet3 tous les sites lié a lui
 =>/29 pour les inter-routeur:
   Lyon (1)-Marseille(2)- Paris(3): 1.1.1.x
 
----------------------------------------------------------------LYON---------------------------------------------------------------------------
+---------------------------------------------------------------LYON------------------------------------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm  </br>
 show interface  </br>
 configure  </br>
@@ -77,7 +77,8 @@ eth10->vmnet2  eth11->vmnet3   eth9->dhcp</br>
 Pour savoir le num adaptateur on peut show int quand on déco un adataptateur en bas à droite.</br>
 
  commit +save pour save les modif    si veut enlever qql chose faire delete devant commande </b>
-  ---------------------------------------------------------------Marseille------------------------------------------------------------------
+ 
+ ---------------------------------------------------------------Marseille------------------------------------------------------------------
 Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm </br>
 Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm </br>
 show interface </br>
