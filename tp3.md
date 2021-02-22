@@ -10,48 +10,48 @@ default domain policie, on ne touche jamais ce qui est fait par défaut donc si 
 **Default domain policie**
 si besoin internet met en nat une 2e adaptateur car vyos se deconf si change d'ordi </br>
 On fait tools puis user and computer on va dans Sites (lyon, Marseille, Paris) et on créer un groupe Responsable (new -> group) </br>
-Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security->local </br>policies ->user right ->allow log only</br>
+Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security->local </br>policies ->user right ->allow log only
 
 
 **Le mot de passe ne peut être repris pendant une année
 Il doit être changé au moins une fois tous les trente jours et doit être complexe et doit être composé de cinq caractères minimum.**
 **quand change les truc pour mot de passe**
-Normalement il aurrait fallut faire une pso pour tout le monde!
-Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security->
+Normalement il aurrait fallut faire une pso pour tout le monde! </br>
+Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security-> </br>
 account policies ->password->puis on modif en fonction du sujet
 
 **Pour regle service informatique**
 
 **Les membres du service Informatiques doit avoir un mot de passe qui dont la longueur doit être de 9 caractères minimum et complexe.**
-**On fait pso (strategie de mdp)**
-On fait un nouveau groupes dans les site, informatique
-puis on va dans tools -> active center (le 1e)-> puis dans ens(local)-> system-> password setting-> new puis config (on y add dans le group informatique créer)
+**On fait pso (strategie de mdp)**</br>
+On fait un nouveau groupes dans les site, informatique </br>
+puis on va dans tools -> active center (le 1e)-> puis dans ens(local)-> system-> password setting-> new puis config (on y add dans le group informatique créer) </br>
 
 **Les postes du site de Lyon doivent avoir le programme 7zip et les membres du service Informatique utilisent le programme Notepad++, par contre le logiciel doit être masqué si une autre personne se sert du PC.**
 
-**Pour on veut que les lyonnais et zip**
-On va télécharger le msi de 7zip
-On va créer un dossier partager: dans la gauche du menu de base, on à file and storage; puis share -> new->selct puis next tout le temps (a part pour le nom)
-Puis on va dans explorateur de fichier pour trouver notre dossier et on va y glisser les appli voulues.
-On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> 
+**Pour on veut que les lyonnais et zip** </br>
+On va télécharger le msi de 7zip </br>
+On va créer un dossier partager: dans la gauche du menu de base, on à file and storage; puis share -> new->selct puis next tout le temps (a part pour le nom) </br>
+Puis on va dans explorateur de fichier pour trouver notre dossier et on va y glisser les appli voulues. </br>
+On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> </br>
 policies->softaware->new package et on selection 7zip dans le dossier shares créer
 
-**pour notepad**
-del notepad++ msi
-On créer une gpo dans group mangement policies dans group object et puis edit le gpo on va dans computer-> 
-policies->softaware->new package et on selection nottpad puis on va aller dans les services informatiques (lyon, paris, marseille) et on va linked existing gpo 
-et on sellectionne celle de nottepadd du shares. (pas pareille que zip ca r zip que pour lyon).
+**pour notepad**</br>
+del notepad++ msi</br>
+On créer une gpo dans group mangement policies dans group object et puis edit le gpo on va dans computer-> </br>
+policies->softaware->new package et on selection nottpad puis on va aller dans les services informatiques (lyon, paris, marseille) et on va linked existing gpo </br>
+et on sellectionne celle de nottepadd du shares. (pas pareille que zip ca r zip que pour lyon). </br>
 
 **pour supprimer le menu Exécuter pour l’ensemble du Domaine mais les membres du service Informatique on cette commande**
 
-on creer une gpo pui quand click normal dessu il a un onglet delegation -> advenced-> on va add informatique puis cocher dans deny aply group policies et on va edit 
-puis -> user-> admin-> start menu->double click et on va mettre en enable.
+on creer une gpo pui quand click normal dessu il a un onglet delegation -> advenced-> on va add informatique puis cocher dans deny aply group policies et on va edit </br>
+puis -> user-> admin-> start menu->double click et on va mettre en enable.</br>
 
-**Sauvegarder l’ensemble des GPO du Domaine un serveur membre de votre choix. Discussion sur la sauvegarde des GPO et leur restauration**
+**Sauvegarder l’ensemble des GPO du Domaine un serveur membre de votre choix. Discussion sur la sauvegarde des GPO et leur restauration**</br>
 
 https://www.it-connect.fr/chapitres/sauvegarde-et-restauration-des-strategies-de-groupe-gpo/ 
 
-dans les tools -> group management policies on va dans les gpo et on clique droit sur le fichier et on fait backup (emplacement c'est la ouon va y copier ici une clé USB)
+dans les tools -> group management policies on va dans les gpo et on clique droit sur le fichier et on fait backup (emplacement c'est la ouon va y copier ici une clé USB)</br>
 ensuite sur un autre serveur memebre on créer un fichier sauvegarde et on y copirera dedans(ici serveur Memebre c'est celui de marseille) 
 
 
