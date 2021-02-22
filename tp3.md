@@ -1,16 +1,16 @@
 # Atelier 3
 
-GPO penser a ce que stratégie soit sur user ET ordi
-Y' a des empillages de gpo, il faut voir les priorité
-chercher executable de type msi.
-default domain policie, on ne touche jamais ce qui est fait par défaut donc si peut soit créer un doublons soit on let un mdp fort dessus.
+GPO penser a ce que stratégie soit sur user ET ordi </br>
+Y' a des empillages de gpo, il faut voir les priorité </br>
+chercher executable de type msi. </br>
+default domain policie, on ne touche jamais ce qui est fait par défaut donc si peut soit créer un doublons soit on let un mdp fort dessus. </br>
 
 **A l’aide d’une stratégie de groupe existante donnez l’autorisation à chaque responsable de chaque Service l’autorisation d’ouvrir une session sur l’ensemble des contrôleurs de domaine de la société.**
 
 **Default domain policie**
-si besoin internet met en nat une 2e adaptateur car vyos se deconf si change d'ordi
-On fait tools puis user and computer on va dans Sites (lyon, Marseille, Paris) et on créer un groupe Responsable (new -> group)
-Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security->local policies ->user right ->allow log only
+si besoin internet met en nat une 2e adaptateur car vyos se deconf si change d'ordi </br>
+On fait tools puis user and computer on va dans Sites (lyon, Marseille, Paris) et on créer un groupe Responsable (new -> group) </br>
+Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security->local </br>policies ->user right ->allow log only</br>
 
 
 **Le mot de passe ne peut être repris pendant une année
