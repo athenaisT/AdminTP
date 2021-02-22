@@ -59,40 +59,40 @@ vmnet3 tous les sites lié a lui
   Lyon (1)-Marseille(2)- Paris(3): 1.1.1.x
 
 ---------------------------------------------------------------LYON----------------------------------------------------------------------------------------------
-Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm
-show interface
-configure
-set interfaces ethernet eth2 address dhcp (dhcp c'est pour internet)
-Pour mettre du vmnet3 sut du eth3(4e adaptateur) on fait dans les settings de la vm
-Puis on doit mettre la inrerouteur sur vmnet3 car c'est la que tout connecté
-set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau)
-set interfaces ethernet eth3 address 1.1.1.1/29  
+Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm  </br>
+show interface  </br>
+configure  </br>
+set interfaces ethernet eth2 address dhcp (dhcp c'est pour internet) </br>
+Pour mettre du vmnet3 sut du eth3(4e adaptateur) on fait dans les settings de la vm </br>
+Puis on doit mettre la inrerouteur sur vmnet3 car c'est la que tout connecté </br>
+set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau) </br>
+set interfaces ethernet eth3 address 1.1.1.1/29  </br>
 
-eth10->vmnet2  eth11->vmnet3   eth9->dhcp
+eth10->vmnet2  eth11->vmnet3   eth9->dhcp</br>
 
-Pour savoir le num adaptateur on peut show int quand on déco un adataptateur en bas à droite.
+Pour savoir le num adaptateur on peut show int quand on déco un adataptateur en bas à droite.</br>
 
 
   ---------------------------------------------------------------Marseille----------------------------------------------------------------------------------------------
-Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm
-Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm
-show interface
-configure
-Puis on doit mettre l'ip inrerouteur sur vmnet3 car c'est la que tout connecté
-set interfaces ethernet eth2 address 1.1.1.2/29  
-set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau privé)
+Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm </br>
+Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm </br>
+show interface </br>
+configure </br>
+Puis on doit mettre l'ip inrerouteur sur vmnet3 car c'est la que tout connecté </br>
+set interfaces ethernet eth2 address 1.1.1.2/29   </br>
+set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau privé)  </br>
 
-eth7->vmnet2   eth4->vmnet3
+eth7->vmnet2   eth4->vmnet3 </br>
   ---------------------------------------------------------------Paris----------------------------------------------------------------------------------------------
-Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm
-Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm
-show interface
-configure
-Puis on doit mettre l'ip inrerouteur sur vmnet3 car c'est la que tout connecté
-set interfaces ethernet eth2 address 1.1.1.3/29  
-set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau privé)
+Pour mettre du vmnet2 sut du eth1 on fait dans les settings de la vm </br>
+Pour mettre du vmnet3 sut du eth2 on fait dans les settings de la vm </br>
+show interface </br>
+configure </br>
+Puis on doit mettre l'ip inrerouteur sur vmnet3 car c'est la que tout connecté </br>
+set interfaces ethernet eth2 address 1.1.1.3/29   </br>
+set interfaces ethernet eth1 address 172.31.1.254/16   (passerrel vers réseau privé) </br>
 
-eth6->vmnet2   eth7->vmnet3
+eth6->vmnet2   eth7->vmnet3 </br>
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  commit +save pour save les modif    si veut enlever qql chose faire delete devant commande
