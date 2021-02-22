@@ -1,4 +1,4 @@
-#atelier 3
+# atelier 3
 
 
 GPO penser a ce que stratégie soit sur user ET ordi
@@ -13,7 +13,18 @@ On fait tools puis user and computer on va dans Sites (lyon, Marseille, Paris) e
 Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security->local policies 
 ->user right ->allow log only
 
-quand change les truc pour mot de passe
+**quand change les truc pour mot de passe**
 
 Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security->
 account policies ->password->puis on modif en fonction du sujet
+
+**Pour regle service informatique**
+
+On fait pso (strategie de mdp)
+On fait un nouveau groupes dans les site, informatique
+puis on va dans tools -> active center (le 1e)-> puis dans ens(local)-> system-> password setting-> new puis config (on y add dans le group informatique créer)
+
+Pour on veut que les lyonnais et zip
+On va télécharger le msi de 7zip
+On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> 
+policies->softaware->new package et on selection 7zip
