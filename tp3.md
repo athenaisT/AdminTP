@@ -31,6 +31,8 @@ puis on va dans tools -> active center (le 1e)-> puis dans ens(local)-> system->
 
 **Pour on veut que les lyonnais et zip**
 On va télécharger le msi de 7zip
+On va créer un dossier partager: dans la gauche du menu de base, on à file and storage; puis share -> new->selct puis next tout le temps (a part pour le nom)
+Puis on va dans explorateur de fichier pour trouver notre dossier et on va y glisser les appli voulues.
 On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> 
 policies->softaware->new package et on selection 7zip
 
