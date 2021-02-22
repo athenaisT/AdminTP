@@ -15,7 +15,7 @@ Puis on va dans group polici management -> deploie la foret -> quand arrive à d
 
 **Le mot de passe ne peut être repris pendant une année
 Il doit être changé au moins une fois tous les trente jours et doit être complexe et doit être composé de cinq caractères minimum.**
-**quand change les truc pour mot de passe**
+**quand change les truc pour mot de passe**</br>
 Normalement il aurrait fallut faire une pso pour tout le monde! </br>
 Puis on va dans group polici management -> deploie la foret -> quand arrive à dans coupet et user on va dans computer et on fait policies, -> windows config-> security-> 
 account policies ->password->puis on modif en fonction du sujet
