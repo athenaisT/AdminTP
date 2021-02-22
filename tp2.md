@@ -121,25 +121,23 @@ Enlever les firewall
 Il faut bien penser a mettre addresse dns + gateway
 (Si parfois pas internet c'est peut etre carte réseau qui est déco) 
 
-SMlyon1-> 172.31.1.4
-SMLyon2->172.31.1.5
-SMMarseille->172.31.1.6
-SMParis->172.31.1.7    -> netsh interface ipv4 set address name=Ethernet0 static 172.31.1.7 255.255.0.0 172.31.1.254 -> netdom join SMP1 /domain :ESN.dom /ud :Administrator /pd :123+aze
+SMlyon1-> 172.31.1.4 </br>
+SMLyon2->172.31.1.5 </br>
+SMMarseille->172.31.1.6 </br>
+SMParis->172.31.1.7 </br>   -> netsh interface ipv4 set address name=Ethernet0 static 172.31.1.7 255.255.0.0 172.31.1.254 -> netdom join SMP1 /domain :ESN.dom /ud :Administrator /pd :123+aze
 
 **pb les serveur memebre pin pas 8.8.8.8 (mais pinf bin cd lyon)**
 
 **Client** </br>
 https://www.microsoft.com/fr-fr/software-download/windows10
-del le windows puis faire une vm avec l'iso de windoms , lancer puis installé windoms 
-Rep au question de sécu + user : Administrator   
-(compte hors connexion + c'est un perso / pas entreprise)
+del le windows puis faire une vm avec l'iso de windoms , lancer puis installé windoms </br>
+Rep au question de sécu + user : Administrator  </br>  
+(compte hors connexion + c'est un perso / pas entreprise)</br>
 clientLyon -> 172.31.1.8  (user : Michel)</br>
 clientParis -> 172.31.1.9 </br>
 clientMarseille -> 172.31.1.10 </br>
 
 Pour faire rejoindre ens : windom+r -> sysdm.cpl puis modifier et on nomme le pc puis on selectionne le domaine ENS.dom (attention parfois faut s'amuser avec les réseau car sinon fonctionne pas)
-
-
 
 
 DNAT (nat en entrée)
