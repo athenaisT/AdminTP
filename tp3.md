@@ -36,7 +36,7 @@ Puis on va dans explorateur de fichier pour trouver notre dossier et on va y gli
 On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> 
 policies->softaware->new package et on selection 7zip dans le dossier shares créer
 
-### **pb** 
+### **pb fichier zip** 
 il faut refaire le dosssier à la main le doossier avec click droit propereties-> sharing ->advenced sharing **JAMMAIS FAIRE CLICK SHARES..**, full droit et rajouter everyone avec cocher modify et quqand ajoute packet zip on fait le lien réséeau (avec //) car sinon le serveurM va chercher en local un chemin qu'il n'a pas.
 
 **pour notepad**</br>
