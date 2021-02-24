@@ -37,7 +37,7 @@ On va dans tools -> group polici management -> on va dans sites dans lyon puis c
 policies->softaware->new package et on selection 7zip dans le dossier shares créer
 
 ### **pb fichier zip** 
-il faut refaire le dosssier à la main le doossier avec click droit propereties-> sharing ->advenced sharing **JAMMAIS FAIRE CLICK SHARES..**, full droit et rajouter everyone avec cocher modify et quqand ajoute packet zip on fait le lien réséeau (avec //) car sinon le serveurM va chercher en local un chemin qu'il n'a pas.
+il faut refaire le dosssier à la main le doossier avec click droit propereties-> sharing ->advenced sharing **JAMMAIS FAIRE CLICK SHARES..**, full droit et rajouter everyone avec cocher modify et quqand ajoute packet zip on fait le lien réséeau (avec //cd en générale) car sinon le serveurM va chercher en local un chemin qu'il n'a pas.
 
 **pour notepad**</br>
 del notepad++ msi</br>
