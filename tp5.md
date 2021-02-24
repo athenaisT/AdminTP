@@ -49,4 +49,7 @@ Paramètres de sécurité NTFS :
 
 - Connectez-vous en Local sur SML1 puis essayer de créer un fichier dans le répertoire Données situé sur SML2 « \\SML2\Donnees », effectuer cette procédure trois fois avec un utilisateur appartenant aux groupes suivants : G_Direction, G_Comptabilité et G_Production 
 
+------------
+L’abréviation « NTFS » renvoie à « New Technology File System » (littéralement : nouveau système de fichiers technologique). Du fait de la prédominance de Microsoft, NTFS est un système de fichiers très répandu permettant l’organisation des données sur des disques durs et des supports de données. Depuis l’introduction de Windows XP en 2001, ce système de fichiers est le standard incontesté pour les systèmes d’exploitation Windows. Dans les sections suivantes, nous vous expliquons dans le détail comment il fonctionne, quels sont ses avantages et en quoi il se démarque des autres systèmes, par exemple des systèmes FAT.
 
+http://www.prosygma.com/iishelp/iis/htm/core/iidfpsc.htm 
