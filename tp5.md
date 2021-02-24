@@ -22,3 +22,8 @@ dans explorateur-> shares -> un folder ou on va faire advanced sécurity-> permi
 
 sml2
 on va metrre dans permission advanced les dl et security a tous fulll controll
+
+
+quand les regle de sécu sont okay et permission share non  => c'est pas bon car normalement on devrait pourvoir faire action, 
+
+les regle de sécu sont plus forte ue les permsission de share. (faut donc favoriser mettre les regles de sécu si on veut partager) 
