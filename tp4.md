@@ -32,6 +32,10 @@ pour le 2 on va idem user&com-> buldin-> event/preformance log user et add un ra
 
 ----------
 
+c'est pas bien le td, car il faudrait pas faire de compte local car quand admin à acces a tout donc on peut surcharger le mdp et donc recup son compte (niveau sécu dangeureux) à la place il faudrait y faire au niveau ad et faire des groupe de domaine/ faut pas add les utlisateur mais plus les groupe des usesr de l'ad qu'on ajoute dans un autre.  (ex: sur le serveur memebre on aurait pas add des user mais leurs group)
+
+
+---
  Les groupes locaux sont vraiment locaux. Ils sont définis et disponibles uniquement pour l’ordinateur spécifique sur lequel ils ont été créés. Ne créez pas de nouveaux groupes locaux sur les postes de travail ; dans la plupart des cas, les seuls groupes locaux qu’il faut gérer sont les groupes d’utilisateurs et d’administrateurs.
     
  Les groupes locaux de domaine permettent de gérer les autorisations des ressources, car ils peuvent être appliqués partout dans le domaine. Un groupe local de domaine peut inclure des membres du domaine de tout type et des membres issus de domaines de confiance. Supposons par exemple que vous deviez gérer l’accès à une collection de dossiers sur un ou plusieurs serveurs contenant des informations destinées aux responsables. Le groupe que vous créez dans ce but doit être un groupe local de domaine (par exemple, « DL_Managers_Modify »).
