@@ -30,3 +30,18 @@ on va metrre dans permission advanced les dl et security a tous fulll controll
 quand les regle de sécu sont okay et permission share non  => c'est pas bon car normalement on devrait pourvoir faire action, 
 
 les regle de sécu sont plus forte ue les permsission de share. (faut donc favoriser mettre les regles de sécu si on veut partager) 
+
+------
+
+
+Paramètres de sécurité NTFS : 
+ - Contrôle total au groupe : Tout le monde
+**faire sur sml2**
+
+- Connectez-vous en Local sur SML1 puis essayer de créer un fichier dans le répertoire Données situé sur SML1, effectuer cette procédure trois fois avec un utilisateur appartenant aux groupes suivants : G_Direction, G_Comptabilité et G_Production
+
+- Connectez-vous en Local sur SML2 puis essayer de créer un fichier dans le répertoire Données situé sur SML2, effectuer cette procédure trois fois avec un utilisateur appartenant aux groupes suivants : G_Direction, G_Comptabilité et G_Production 
+
+- Connectez-vous en Local sur SML1 puis essayer de créer un fichier dans le répertoire Données situé sur SML2 « \\SML2\Donnees », effectuer cette procédure trois fois avec un utilisateur appartenant aux groupes suivants : G_Direction, G_Comptabilité et G_Production 
+
+
