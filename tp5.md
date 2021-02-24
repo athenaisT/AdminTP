@@ -35,7 +35,7 @@ les regle de sécu sont plus forte ue les permsission de share. (faut donc favor
 
 
 Paramètres de sécurité NTFS : 
- - Contrôle total au groupe : Tout le monde
+ - Contrôle total au groupe : Tout le monde </br>
 **faire sur sml2**
 
 - Connectez-vous en Local sur SML1 puis essayer de créer un fichier dans le répertoire Données situé sur SML1, effectuer cette procédure trois fois avec un utilisateur appartenant aux groupes suivants : G_Direction, G_Comptabilité et G_Production
