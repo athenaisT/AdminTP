@@ -44,8 +44,7 @@ et on sellectionne celle de nottepadd du shares. (pas pareille que zip ca r zip 
 
 **pour supprimer le menu Exécuter pour l’ensemble du Domaine mais les membres du service Informatique on cette commande**
 
-on creer une gpo pui quand click normal dessu il a un onglet delegation -> advenced-> on va add informatique puis cocher dans deny aply group policies et on va edit 
-puis -> user-> admin-> start menu->double click et on va mettre en enable. Penser à y linked au site </br>
+on creer une gpo puis on va edit puis -> user-> admin-> start menu->double click et on va mettre en enable. Penser à y linked au site puis on va crere une autre gpo idem sauf qu'il ya aura desable (pour y link au informatique) </br>
 
 **pour tester**
 on va creer un nouvel utlisateur dans user et computer (pour si co su rles serveur membre) car si en admin on a le droit à tout (donc y voit pas)
