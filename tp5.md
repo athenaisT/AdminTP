@@ -18,4 +18,7 @@ on va créer dans explorateur-> shares -> un foldre ou on va faire advanced shar
 
 ntfs  
 
-dans explorateur-> shares -> un foldre ou on va faire advanced sécurity-> permission fulll conttrol ou read et tout ça en fonctionde dl et droit demander.
+dans explorateur-> shares -> un folder ou on va faire advanced sécurity-> permission fulll conttrol ou read et tout ça en fonctionde dl et droit demander et permission dans share advanced everyone full controlle.
+
+sml2
+on va metrre dans permission advanced les dl et security a tous fulll controll
