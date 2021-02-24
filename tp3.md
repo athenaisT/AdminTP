@@ -45,7 +45,7 @@ et on sellectionne celle de nottepadd du shares. (pas pareille que zip ca r zip 
 **pour supprimer le menu Exécuter pour l’ensemble du Domaine mais les membres du service Informatique on cette commande**
 
 on creer une gpo pui quand click normal dessu il a un onglet delegation -> advenced-> on va add informatique puis cocher dans deny aply group policies et on va edit 
-puis -> user-> admin-> start menu->double click et on va mettre en enable.</br>
+puis -> user-> admin-> start menu->double click et on va mettre en enable. Penser à y linked au site </br>
 
 **Sauvegarder l’ensemble des GPO du Domaine un serveur membre de votre choix. Discussion sur la sauvegarde des GPO et leur restauration**</br>
 
