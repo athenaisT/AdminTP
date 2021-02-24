@@ -30,6 +30,9 @@ pour dernier question: on va dans user and computer dans users (trucs de basse) 
 pour le 1 on va idem user&com-> buldin-> print/account/backup/server operator et add un random gars.
 pour le 2 on va idem user&com-> buldin-> event/preformance log user et add un random gars
 
+
+https://www.netwrix.fr/active_directory_group_management.html 
+
 ----------
 
 c'est pas bien le td, car il faudrait pas faire de compte local car quand admin à acces a tout donc on peut surcharger le mdp et donc recup son compte (niveau sécu dangeureux) à la place il faudrait y faire au niveau ad et faire des groupe de domaine/ faut pas add les utlisateur mais plus les groupe des usesr de l'ad qu'on ajoute dans un autre.  (ex: sur le serveur memebre on aurait pas add des user mais leurs group)
