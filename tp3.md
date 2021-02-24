@@ -47,6 +47,9 @@ et on sellectionne celle de nottepadd du shares. (pas pareille que zip ca r zip 
 on creer une gpo pui quand click normal dessu il a un onglet delegation -> advenced-> on va add informatique puis cocher dans deny aply group policies et on va edit 
 puis -> user-> admin-> start menu->double click et on va mettre en enable. Penser à y linked au site </br>
 
+**pour tester**
+on va creer un nouvel utlisateur dans user et computer (pour si co su rles serveur membre) car si en admin on a le droit à tout (donc y voit pas)
+
 **Sauvegarder l’ensemble des GPO du Domaine un serveur membre de votre choix. Discussion sur la sauvegarde des GPO et leur restauration**</br>
 
 https://www.it-connect.fr/chapitres/sauvegarde-et-restauration-des-strategies-de-groupe-gpo/ 
