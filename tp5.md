@@ -10,3 +10,12 @@ Autorisations de Partage :
 Contrôle total au groupe : DL_Total_Ressources
 Lecture au groupe : DL_Lecture_Ressources
 Refuser au groupe : DL_Refuser_Ressources
+
+
+------
+
+on va créer dans explorateur-> shares -> un foldre ou on va faire advanced share-> permission fulll conttrol .
+
+ntfs  
+
+dans explorateur-> shares -> un foldre ou on va faire advanced sécurity-> permission fulll conttrol ou read et tout ça en fonctionde dl et droit demander.
