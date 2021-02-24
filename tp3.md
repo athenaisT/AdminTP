@@ -35,15 +35,17 @@ On va créer un dossier partager: dans la gauche du menu de base, on à file and
 Puis on va dans explorateur de fichier pour trouver notre dossier et on va y glisser les appli voulues. </br>
 On va dans tools -> group polici management -> on va dans sites dans lyon puis clik droit new gpo (nommé lyon7zip)-> puis on fait edit -> on va dans computer-> 
 policies->softaware->new package et on selection 7zip dans le dossier shares créer
+il faut penser a chech dans edit install quand log (dans properties).
 
 ### **pb fichier zip** 
-il faut refaire le dosssier à la main le doossier avec click droit propereties-> sharing ->advenced sharing **JAMMAIS FAIRE CLICK SHARES..**, full droit et rajouter everyone avec cocher modify et quqand ajoute packet zip on fait le lien réséeau (avec //cd en générale) car sinon le serveurM va chercher en local un chemin qu'il n'a pas.
+il faut refaire le dosssier à la main le doossier avec click droit propereties-> sharing ->advenced sharing **JAMMAIS FAIRE CLICK SHARES..**, full droit et rajouter everyone avec cocher modify et quqand ajoute packet zip on fait le lien réséeau (avec //cd en générale) car sinon le serveurM va chercher en local un chemin qu'il n'a pas.  
 
 **pour notepad**</br>
 del notepad++ msi</br>
 On créer une gpo dans group mangement policies dans group object et puis edit le gpo on va dans computer-> </br>
 policies->softaware->new package et on selection nottpad puis on va aller dans les services informatiques (lyon, paris, marseille) et on va linked existing gpo </br>
 et on sellectionne celle de nottepadd du shares. (pas pareille que zip ca r zip que pour lyon). </br>
+il faut penser a chech dans edit install quand log (dans properties).
 
 **pour supprimer le menu Exécuter pour l’ensemble du Domaine mais les membres du service Informatique on cette commande**
 
