@@ -24,7 +24,11 @@ l'annuaire de regle jamais sur les noms toujours sur les groupe car si une perso
 group domain local on fait dans tools user computer on va créer new group check domain local.
 
 pour faire gl_responsable dans DL_Lecture_Ressources donc on va add a un group gl_responsable.
-pour groupe local on va dans un serveur memebre, puis computer managment on va dans system tools -> local user -> group. on va rajouter dans la ou on est dans le groupe existant administrator et on add jean vien
+pour groupe local on va dans un serveur memebre, puis computer managment on va dans system tools -> local user -> group. on va rajouter dans la ou on est dans le groupe existant administrator et on add jean vien.
+
+pour dernier question: on va dans user and computer dans users (trucs de basse) et on va clicker sur domain admini et add un memebre.
+pour le 1 on va idem user&com-> buldin-> print/account/backup/server operator et add un random gars.
+pour le 2 on va idem user&com-> buldin-> event/preformance log user et add un random gars
 
 ----------
 
