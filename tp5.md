@@ -36,11 +36,16 @@ les regle de sécu sont plus forte ue les permsission de share. (faut donc favor
 
 Paramètres de sécurité NTFS : 
  - Contrôle total au groupe : Tout le monde </br>
-**faire sur sml2**
+**fait sur sml2**
 
 - Connectez-vous en Local sur SML1 puis essayer de créer un fichier dans le répertoire Données situé sur SML1, effectuer cette procédure trois fois avec un utilisateur appartenant aux groupes suivants : G_Direction, G_Comptabilité et G_Production
 
+=> se co avec un user de ses service normallent on doit pouvoir tout faire selon les droits.
+
 - Connectez-vous en Local sur SML2 puis essayer de créer un fichier dans le répertoire Données situé sur SML2, effectuer cette procédure trois fois avec un utilisateur appartenant aux groupes suivants : G_Direction, G_Comptabilité et G_Production 
+
+
+=> se co avec un user de ses service normallent on doit pouvoir tout faire sans respect des droit mis.
 
 - Connectez-vous en Local sur SML1 puis essayer de créer un fichier dans le répertoire Données situé sur SML2 « \\SML2\Donnees », effectuer cette procédure trois fois avec un utilisateur appartenant aux groupes suivants : G_Direction, G_Comptabilité et G_Production 
 
