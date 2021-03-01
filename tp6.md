@@ -33,6 +33,7 @@ on va dans cd on va dans all server et on add le serveur memebre, puis clique dr
 dans un serveur memebre ici lyon1
 windomws+r puis mmc.exe puis file -> new add/snappin puis on add le 3e avec ad user puis on va dans sites->LYON-> COMPTA ET ON FAIT NEW WIDOW FROM HERE -> new task passs vieew
 on suit etapes (le new password et en dehors du node) puis on fait click sur comptabilité(ou)->delegate control-> on add a responsable et coche les 2 premier (create et reset password)
+se co avec admin du cd
 
 **Créer un groupe de serveurs dans le Gestionnaire de serveurs et nommer-le SRV_Form et Installer Le rôle IIS sur le serveur CORE et sur un serveur Membre**
 on va dans le dasboard create a server groupe (dans ad on add les serveur voulu), puis on va add features et on met server web (iis) sur les serveur voulues.it
