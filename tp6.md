@@ -14,6 +14,15 @@ c'est pour controler les taches que peuvent faire les user pour éviter qu'ils c
 
 
 **Quelle est l’utilité des consoles MMC**
+
 Microsoft Management Console (abr. MMC) est un gestionnaire de console virtuelle incorporé dans Microsoft Windows, qui sert de conteneur pour des interfaces graphiques 
 de configuration. Ce logiciel utilitaire est à la base de nombreux outils de configuration incorporés dans Windows, et permet de créer des outils d'administration système 
 en regroupant un lot d'extensions dans une même fenêtre1.
+
+**Pour une sécurité accrue au sein de votre entreprise renommer le compte administrateur du domaine.**
+on fait rename sur user administrator penser a changer account aussi.
+
+**Créer un autre compte pour l’administrateur n’ayant pas les droits d’administration, il devra dorénavant utiliser ce compte pour se connecter au domaine et effectuer l’administration du domaine à l’aide de la commande  Exécuter en tant que avec le compte ayant les droits sur le domaine.**
+
+
+
