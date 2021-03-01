@@ -32,7 +32,7 @@ on va dans cd on va dans all server et on add le serveur memebre, puis clique dr
 **Créer une console MMC ou application WPF  personnalisé afin que les responsables puissent créer des utilisateurs dans leur service ainsi que la possibilité de réinitialiser les mots de passes des membres de son service.**
 dans un serveur memebre ici lyon1
 windomws+r puis mmc.exe puis file -> new add/snappin puis on add le 3e avec ad user puis on va dans sites->LYON-> COMPTA ET ON FAIT NEW WIDOW FROM HERE -> new task passs vieew
-
+on suit etapes (le new password et en dehors du node) puis on fait click sur comptabilité(ou)->delegate control-> on add a responsable et coche les 2 premier (create et reset password)
 
 wpf => interface graphique de windows pour du power shell
 
