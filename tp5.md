@@ -55,3 +55,6 @@ L’abréviation « NTFS » renvoie à « New Technology File System » (littér
 **pernser a deny les autre droit qui ne sont pas selectionner**
 
 http://www.prosygma.com/iishelp/iis/htm/core/iidfpsc.htm 
+
+
+**proprietaire > permission**
