@@ -27,8 +27,6 @@ on créer un nouveau group ou on add amin et admini le new user. puis properties
 penser a ajouter g-admin dans gpo du remove le run menue (delegation deny group machin).
 admini c'est le compte du l'autre admin. creer gpo la ou ya vait run menue y ' a un truc show run as different user.
 
-sur cd dans all serveur on add SML1 ,on clique droit sur SML1 puis on add roles et feature next-> next-> next-> et on coche add et services puis next jusqu'a la fin 
-sur un autre serveur memebre. 
 
 wpf => interface graphique de windows pour du power shell
 
