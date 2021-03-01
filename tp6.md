@@ -23,6 +23,8 @@ en regroupant un lot d'extensions dans une même fenêtre1.
 on fait rename sur user administrator penser a changer account aussi.
 
 **Créer un autre compte pour l’administrateur n’ayant pas les droits d’administration, il devra dorénavant utiliser ce compte pour se connecter au domaine et effectuer l’administration du domaine à l’aide de la commande  Exécuter en tant que avec le compte ayant les droits sur le domaine.**
+on créer un nouveau group ou on add amin et admini le new user.
 
 
+wpf => interface graphique de windows pour du power shell
 
