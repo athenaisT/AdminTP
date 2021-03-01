@@ -3,7 +3,7 @@
 **Quel rôle pour des outils d’administration, pourquoi travailler avec le minimum de droits nécessaire et exécuter les tâches d’administration en utilisant la fonction Exécuter
 en tant que**
 
-Les outils RSAT permettent aux administrateurs informatiques de gérer les rôles et les fonctionnalités de Windows Server à partir d’un PC Windows 10.
+Les outils (RSAT) permettent aux administrateurs informatiques de gérer les rôles et les fonctionnalités de Windows Server à partir d’un PC Windows 10.
 Les Outils d’administration de serveur distant comprennent le Gestionnaire de serveur, des composants logiciels enfichables MMC (Microsoft Management Console), des consoles, 
 des fournisseurs et des applets de commande Windows PowerShell, ainsi que des outils en ligne de commande pour la gestion des rôles et des fonctionnalités exécutés sur
 Windows Server.
