@@ -25,7 +25,7 @@ on fait rename sur user administrator penser a changer account aussi.
 **Créer un autre compte pour l’administrateur n’ayant pas les droits d’administration, il devra dorénavant utiliser ce compte pour se connecter au domaine et effectuer l’administration du domaine à l’aide de la commande  Exécuter en tant que avec le compte ayant les droits sur le domaine.**
 on créer un nouveau group ou on add amin et admini le new user. puis properties attribute j'ai mis dans admincount :2 (jsp si juste)
 penser a ajouter g-admin dans gpo du remove le run menue (delegation deny group machin).
-
+admini c'est le compte du l'autre admin
 
 
 wpf => interface graphique de windows pour du power shell
