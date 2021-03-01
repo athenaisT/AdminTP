@@ -10,3 +10,4 @@ dans les notif on peut config dhcp, click dhcp manager sur cd on va faire 3 scop
 on va créer nouveau dhcp sur sml1 puis dans le cd on va dans dhcp manager puis clik sur dhcp et add server
 on va mettre failover (comme çav cela va se dupliquer et mettre sur l'auter server car si le premier tombe le 2e prend le relais)
 pour tester sur un serveur memebre on fait ipconfig puis ipconfig /release puis ipconfig / renew
+pour tester si l'autre serveur dhcp prend le relais on désactive les adaptateur de cd et on refait renew
