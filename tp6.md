@@ -25,8 +25,10 @@ on fait rename sur user administrator penser a changer account aussi.
 **Créer un autre compte pour l’administrateur n’ayant pas les droits d’administration, il devra dorénavant utiliser ce compte pour se connecter au domaine et effectuer l’administration du domaine à l’aide de la commande  Exécuter en tant que avec le compte ayant les droits sur le domaine.**
 on créer un nouveau group ou on add amin et admini le new user. puis properties attribute j'ai mis dans admincount :2 (jsp si juste)
 penser a ajouter g-admin dans gpo du remove le run menue (delegation deny group machin).
-admini c'est le compte du l'autre admin
+admini c'est le compte du l'autre admin. creer gpo la ou ya vait run menue y ' a un truc show run as different user.
 
+sur cd dans all serveur on add SML1 ,on clique droit sur SML1 puis on add roles et feature next-> next-> next-> et on coche add et services puis next jusqu'a la fin 
+sur un autre serveur memebre. 
 
 wpf => interface graphique de windows pour du power shell
 
