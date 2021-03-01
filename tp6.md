@@ -40,7 +40,8 @@ on va dans le dasboard create a server groupe (dans ad on add les serveur voulu)
 
 -------
 
-Internet Information Services, anciennement Internet Information Server, communément appelé IIS (prononcé généralement "2 i s"), est un serveur Web (HTTP) des différents systèmes d'exploitation Windows NT.
+iis :Internet Information Services, anciennement Internet Information Server, communément appelé IIS (prononcé généralement "2 i s"), est un serveur Web (HTTP) des différents systèmes d'exploitation Windows NT.
+IIS est un le serveur web progiciel conçu pour Windows Server. Il est utilisé pour l'hébergement sites Internet et d'autres contenus sur le Web.
 
 wpf => interface graphique de windows pour du power shell
 
