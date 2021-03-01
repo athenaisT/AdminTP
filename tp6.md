@@ -29,5 +29,10 @@ admini c'est le compte du l'autre admin. creer gpo la ou ya vait run menue y ' a
 
 on va dans cd on va dans all server et on add le serveur memebre, puis clique droit dessus add roles et features on next les 3 premier puis on coche ad domain et services et on next jusqu'à install. puis sur mozilla on tappe SAD.ens.dom pui on ajoute cd. puis dans le dasboard on fait add other server et add tous
 
+**Créer une console MMC ou application WPF  personnalisé afin que les responsables puissent créer des utilisateurs dans leur service ainsi que la possibilité de réinitialiser les mots de passes des membres de son service.**
+dans un serveur memebre ici lyon1
+windomws+r puis mmc.exe
+
+
 wpf => interface graphique de windows pour du power shell
 
