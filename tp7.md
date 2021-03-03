@@ -13,6 +13,7 @@ pour tester sur un serveur memebre on fait ipconfig puis ipconfig /release puis 
 pour tester si l'autre serveur dhcp prend le relais on désactive les adaptateur de cd et on refait renew
 
 => get mac en cmd pour avoir l'adresse mac quand fait réservation
+mes scoope sont mes pool d'addresse, mes reservation sont les adresse static pour les sever cd, sml1 par exemple.
 
 **Ouvrez la console DNS, sélectionnez la zone de votre domaine et rechercher les définitions des enregistrements présents (S.O.A, NS, A, A.A.A.A …)**
 
@@ -28,4 +29,7 @@ Un enregistrement AAAA, aussi connu sous le nom de « quad-a », fonctionne comm
 
 **L’enregistrement NS**
 Dans un enregistrement NS, l’entrée du serveur de nom d’un fichier de zone, on vous indique la compétence d’une zone particulière. Cette entrée est donc obligatoire pour chaque fichier de zone. Cet enregistrement de ressources permet d’indiquer au serveur DNS s’il est compétent pour la requête, c’est-à-dire en charge de la zone, ou bien s’il doit transférer la requête.
+
+
+**reverse DNS**
 
