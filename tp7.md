@@ -12,6 +12,8 @@ on va mettre failover (comme çav cela va se dupliquer et mettre sur l'auter ser
 pour tester sur un serveur memebre on fait ipconfig puis ipconfig /release puis ipconfig / renew
 pour tester si l'autre serveur dhcp prend le relais on désactive les adaptateur de cd et on refait renew
 
+=> get mac en cmd pour avoir l'adresse mac quand fait réservation
+
 **Ouvrez la console DNS, sélectionnez la zone de votre domaine et rechercher les définitions des enregistrements présents (S.O.A, NS, A, A.A.A.A …)**
 
 **L’enregistrement SOA**
