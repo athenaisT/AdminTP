@@ -31,5 +31,5 @@ Un enregistrement AAAA, aussi connu sous le nom de « quad-a », fonctionne comm
 Dans un enregistrement NS, l’entrée du serveur de nom d’un fichier de zone, on vous indique la compétence d’une zone particulière. Cette entrée est donc obligatoire pour chaque fichier de zone. Cet enregistrement de ressources permet d’indiquer au serveur DNS s’il est compétent pour la requête, c’est-à-dire en charge de la zone, ou bien s’il doit transférer la requête.
 
 
-**reverse DNS**
-
+**reverse DNS : on envoi requete dns puis on a le nom**
+on va dans dns puis dns management puis revers -> primary puis on suuit etape. penser a mettre dans interface ipv6 mettre detecte automatiquement le DNS
