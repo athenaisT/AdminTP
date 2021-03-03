@@ -34,3 +34,4 @@ Dans un enregistrement NS, l’entrée du serveur de nom d’un fichier de zone,
 **reverse DNS : on envoi requete dns puis on a le nom**
 on va dans dns puis dns management puis revers -> primary puis on suuit etape. penser a mettre dans interface ipv6 mettre detecte automatiquement le DNS.
 puis pour tester on fait nslooksup 172.31.1.1
+http://www.antrimohamed.fr/nslookup-serveur-par-defaut-unknown/ 
