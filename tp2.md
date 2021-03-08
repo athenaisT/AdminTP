@@ -50,6 +50,146 @@ Utilisateur:
 on tape power dans vm-CD (power Shell ISE à choisir)
 New-ADOrganizationalUnit -Name "Lyon" -Path "OU=UTILISATEURS,DC=ENS,DC=dom"   (pour créer OU lyon) MAIS avant il faut faire les vyos
 
+> function New-Password
+{
+
+$Alphabets = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z'
+$numbers = 0..9
+$specialCharacters = '~,!,@,#,$,%,^,&,*,(,),>,<,?,\,/,_,-,=,+'
+$array = @()
+$array += $Alphabets.Split(',') | Get-Random -Count 4
+$array[0] = $array[0].ToUpper()
+$array[-1] = $array[-1].ToUpper()
+$array += $numbers | Get-Random -Count 3
+$array += $specialCharacters.Split(',') | Get-Random -Count 3
+($array | Get-Random -Count $array.Count) -join ""
+}
+
+
+#########
+function New-RandomUser {
+    <#
+    .SYNOPSIS
+    Generate random user data from Https://randomuser.me/.
+    .DESCRIPTION
+    This function uses the free API for generating random user data from https://randomuser.me/
+    .EXAMPLE
+    Get-RandomUser 10
+    .EXAMPLE
+    Get-RandomUser -Amount 25 -Nationality us,gb 
+    .LINK
+    https://randomuser.me/
+    #>
+    [CmdletBinding()]
+    param (
+    [Parameter(Position = 0)]
+    [ValidateRange(1,500)]
+    [int] $Amount,
+    
+    [Parameter()]
+    [ValidateSet('Male','Female')]
+    [string] $Gender,
+    
+    # Supported nationalities: AU, BR, CA, CH, DE, DK, ES, FI, FR, GB, IE, IR, NL, NZ, TR, US
+    [Parameter()]
+    [string[]] $Nationality,
+    
+    
+    [Parameter()]
+    [ValidateSet('json','csv','xml')]
+    [string] $Format = 'json',
+    
+    # Fields to include in the results.
+    # Supported values: gender, name, location, email, login, registered, dob, phone, cell, id, picture, nat
+    [Parameter()]
+    [string[]] $IncludeFields,
+    
+    # Fields to exclude from the the results.
+    # Supported values: gender, name, location, email, login, registered, dob, phone, cell, id, picture, nat
+    [Parameter()]
+    [string[]] $ExcludeFields
+    )
+    
+    $rootUrl = "http://api.randomuser.me/?format=$($Format)"
+    
+    if ($Amount) {
+    $rootUrl += "&results=$($Amount)"
+    }
+    
+    if ($Gender) {
+    $rootUrl += "&gender=$($Gender)"
+    }
+    
+    
+    if ($Nationality) {
+    $rootUrl += "&nat=$($Nationality -join ',')"
+    }
+    
+    if ($IncludeFields) {
+    $rootUrl += "&inc=$($IncludeFields -join ',')"
+    }
+    
+    if ($ExcludeFields) {
+    $rootUrl += "&exc=$($ExcludeFields -join ',')"
+    }
+    
+    Invoke-RestMethod -Uri $rootUrl
+    }
+
+   $tt= New-RandomUser -Amount 30 -Nationality FR -IncludeFields name,phone,cell -ExcludeFields picture | Select-Object -ExpandProperty results
+##############
+
+# recup le dommain   (surligner une variable et faire f8)+(f5 pour run script
+$doma =Get-ADDomain
+$domain=($doma.DNSROOT).split('.')
+$Dom = $domain[0]
+$ext =$domain[1]
+
+#OU sites
+New-ADOrganizationalUnit -Name "Sites" -Path "DC=$Dom,DC=$ext"  -ProtectedFromAccidentalDeletion $false # sert a decocher droit pour pouvoir delete le ou 
+
+$tablCity = @("Lyon","Paris","Marseille") 
+$tabService=@("direction","marketing","informatique","compatbilite","production")
+
+foreach ($city in $tablCity){
+        New-ADOrganizationalUnit -Name $city -Path "OU=Sites,DC=$Dom,DC=$ext"  -ProtectedFromAccidentalDeletion $false 
+        New-ADOrganizationalUnit -Name "computer" -Path "OU=$city,OU=Sites,DC=$Dom,DC=$ext"  -ProtectedFromAccidentalDeletion $false 
+        New-ADOrganizationalUnit -Name "service" -Path "OU=$city,OU=Sites,DC=$Dom,DC=$ext"  -ProtectedFromAccidentalDeletion $false 
+        $i=0;
+    foreach ($service in $tabService){
+         New-ADOrganizationalUnit -Name $service -Path "OU=service,OU=$city, OU=Sites,DC=$Dom,DC=$ext"  -ProtectedFromAccidentalDeletion $false 
+         $users= New-RandomUser -Amount 30 -Nationality FR -IncludeFields name,phone,cell -ExcludeFields picture | Select-Object -ExpandProperty results 
+         $resp = 0
+        foreach($user in $users){
+            $title = "EMP"
+            $changePassword = $true
+            if($resp -lt 2){
+                $title = "RD"
+                $changePassword = $false
+                $resp++
+            }
+           New-ADUser -Name ($user.name.first+'.'+$user.name.last) -DisplayName ($user.name.last+" "+$user.name.first) -HomePhone $user.phone -MobilePhone $user.cell -GivenName $user.name.first   -Surname $user.name.last  -Title $title  -Company ($Dom+""+ $site)  -City $site -CannotChangePassword $changePassword  -Path "OU =$service, OU =service,OU=$city, OU=Sites,DC=$Dom,DC=$ext"
+           #condition que les responsables ne peuvent pas se co le WE
+           if($title -eq "EMP"){
+           [byte[]]$hours = @(0,0,0,0,255,3,0,255,3,0,255,3,0,255,3,0,255,3,0,0,0)
+           Get-ADUser -Identity ($user.name.first+'.'+$user.name.last) | Set-ADUser -Replace @{logonhours=$hours}
+           }
+
+         }
+    } 
+ 
+      
+    }
+
+    Get-ADUser -Filter 'Title -like "RD"'
+
+
+
+
+
+
+
+
 **2,5 : VyOS (routeur virtuelle):** </br>
 importe vm vyos(snapshot+clone)  (login: vyos   mdp: vyos )
 pour mettre en fr : set console keymap -> generique 105 -> other -> french-> french -> ok->ok
