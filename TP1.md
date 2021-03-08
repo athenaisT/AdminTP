@@ -60,7 +60,8 @@ WIN-05TKK2M5I60 c'est le core donc marseille </br>
 **pour l'instant no serveurs ne sont que memebre ils vont évoluer au fur et a mesure des tp**
 
 
-**Domaine Active Directory** : Active Directory répertorie les éléments d'un réseau administré tels que les comptes des utilisateurs, les serveurs, les postes de travail,
+**Domaine Active Directory** : L'objectif principal d'Active Directory est de fournir des services centralisés d'identification et d'authentification à un réseau d'ordinateurs utilisant le système Windows, MacOs et encore Linux. Il permet également l'attribution et l'application de stratégies ainsi que l'installation de mises à jour critiques par les administrateurs.
+Active Directory répertorie les éléments d'un réseau administré tels que les comptes des utilisateurs, les serveurs, les postes de travail,
 les dossiers partagés (en), les imprimantes, etc.
 
 **Serveur Autonome**: les serveurs autonomes comme des serveurs autogérés dont la durabilité dépend du travail volontaire et/ou rémunéré de ceux qui en ont la responsabilité 
