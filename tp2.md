@@ -182,7 +182,7 @@ foreach ($city in $tablCity){
     }
 
     Get-ADUser -Filter 'Title -like "RD" 
-    ```
+```
 
 
 
