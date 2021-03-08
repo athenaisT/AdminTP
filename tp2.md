@@ -50,10 +50,10 @@ Utilisateur:
 on tape power dans vm-CD (power Shell ISE à choisir)
 New-ADOrganizationalUnit -Name "Lyon" -Path "OU=UTILISATEURS,DC=ENS,DC=dom"   (pour créer OU lyon) MAIS avant il faut faire les vyos
 
- 'function New-Password
+```function New-Password'
 {
 
-$Alphabets = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z'
+'$Alphabets = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z'
 $numbers = 0..9
 $specialCharacters = '~,!,@,#,$,%,^,&,*,(,),>,<,?,\,/,_,-,=,+'
 $array = @()
@@ -181,8 +181,8 @@ foreach ($city in $tablCity){
       
     }
 
-    Get-ADUser -Filter 'Title -like "RD"''
-
+    Get-ADUser -Filter 'Title -like "RD" 
+    ```
 
 
 
