@@ -169,7 +169,7 @@ foreach ($city in $tablCity){
                 $resp++
             }
            New-ADUser -Name ($user.name.first+'.'+$user.name.last) -DisplayName ($user.name.last+" "+$user.name.first) -HomePhone $user.phone -MobilePhone $user.cell 
-          -GivenName $user.name.first   -Surname $user.name.last  -Title $title  -Company ($Dom+""+ $site)  -City $site -CannotChangePassword $changePassword  -Path "OU =$service, OU =service,OU=$city, OU=Sites,DC=$Dom,DC=$ext"
+ -GivenName $user.name.first   -Surname $user.name.last  -Title $title  -Company ($Dom+""+ $site)  -City $site -CannotChangePassword $changePassword  -Path "OU =$service, OU =service,OU=$city, OU=Sites,DC=$Dom,DC=$ext"
            #condition que les responsables ne peuvent pas se co le WE
            if($title -eq "EMP"){
            [byte[]]$hours = @(0,0,0,0,255,3,0,255,3,0,255,3,0,255,3,0,255,3,0,0,0)
