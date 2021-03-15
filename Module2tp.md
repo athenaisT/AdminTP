@@ -71,3 +71,18 @@ https://les2t.fr/mdt-customsettings-ini-et-bootstrap-ini/
 **BootStrap.ini** : Fichier de configuration utilisé lorsque l’ordinateur cible n’est pas en mesure de se connecter au point de déploiement approprié. Cette situation survient dans un scénario de nouvel ordinateur et pour l’ordinateur de remplacement d’un scénario de remplacement d’ordinateur. Le fichier BootStrap.ini est intégré dans l’image de boot
 => boostrap agit en 1er, mieux de modif custom car sinon doit tout mettre à jour
 => si bootstrap pas bon peut baiser image
+
+
+on update deployement share : quand on modif boostrap, quand on veut faire des modif sur le boot
+
+https://numerique.univ-reims.fr/index.php?eID=dumpFile&t=f&f=2157&token=d717d00675f9aee16e5c3fb1bce09ed7fc78d98a
+http://winux.overblog.com/2014/08/creation-d-un-master-avec-mdt.html
+
+
+
+manque des truc sir le dc à config, on doit créer une vm pour faire capture, donc on va lancer cette vm on va choisirr iso + les appli(task séquances) puis on fait uune capture
+et on va l'utiliser comme image de boot
+
+
+
+
