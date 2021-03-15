@@ -72,6 +72,8 @@ https://les2t.fr/mdt-customsettings-ini-et-bootstrap-ini/
 => boostrap agit en 1er, mieux de modif custom car sinon doit tout mettre à jour
 => si bootstrap pas bon peut baiser image
 
+modification du boostarp et config sur teams
+
 
 on update deployement share : quand on modif boostrap, quand on veut faire des modif sur le boot
 
