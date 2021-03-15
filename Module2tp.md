@@ -46,3 +46,14 @@ pour installer cisko packet pas en exe on fait une installation silencieuse : ht
 
 
 **séquence de tâche:** Une séquence de tâche dans MDT contient l’ensemble des actions qui vont être effectuées sur le poste durant le déploiement.
+
+mdt -> image systeme explotation 
+Le MDT est en fait une console graphique (de type MMC) dont l’objectif est de fédérer des sources, réaliser l’assemblage et proposer des séquences de taches pour piloter le tout…
+
+wds -> image de bootage
+ En utilisant WDS vous aurez l’avantage de ne pas être limité par le support (disques du serveur), mais l'inconvénient du transport de fichiers volumineux (bande passante du réseau).
+Le premier intérêt de WDS est d’offrir une "dématérialisation" des DVD de distribution afin de les centraliser sur un serveur et fournir par la même occasion un système d’amorçage via le réseau PXE.
+
+(pas sur)
+
+=> https://www.it-connect.fr/overview-mdt-wds-winpe/
