@@ -59,6 +59,6 @@ Le premier intérêt de WDS est d’offrir une "dématérialisation" des DVD de 
 
 => mdt et wds sont complémentaire c'est wds qui va cherecher les images et mdt va config les images
 
-(pas sur)
+les scénario sont les task sequences
 
 => https://www.it-connect.fr/overview-mdt-wds-winpe/
