@@ -54,6 +54,9 @@ wds -> image de bootage
  En utilisant WDS vous aurez l’avantage de ne pas être limité par le support (disques du serveur), mais l'inconvénient du transport de fichiers volumineux (bande passante du réseau).
 Le premier intérêt de WDS est d’offrir une "dématérialisation" des DVD de distribution afin de les centraliser sur un serveur et fournir par la même occasion un système d’amorçage via le réseau PXE.
 
+=> quand browser : c-> deployementhare->boot-> prendre la 64
+
+
 (pas sur)
 
 => https://www.it-connect.fr/overview-mdt-wds-winpe/
