@@ -57,6 +57,8 @@ Le premier intérêt de WDS est d’offrir une "dématérialisation" des DVD de 
 => quand browser : c-> deployementhare->boot-> prendre la 64
 
 
+=> mdt et wds sont complémentaire c'est wds qui va cherecher les images et mdt va config les images
+
 (pas sur)
 
 => https://www.it-connect.fr/overview-mdt-wds-winpe/
