@@ -62,3 +62,12 @@ Le premier intérêt de WDS est d’offrir une "dématérialisation" des DVD de 
 les scénario sont les task sequences
 
 => https://www.it-connect.fr/overview-mdt-wds-winpe/
+
+BOOSTRAP.INI => sécu merdique + son role : donne des info à loa machine pour se co au partage de déploiement (donc des que modif on doit mettre à jour tout le lignt et wwds)
+customsettings.ini => Régles : permet de parametre le deploiement en fonction de l'emplacement (ex langue , fuseau horaire..) 
+https://les2t.fr/mdt-customsettings-ini-et-bootstrap-ini/ 
+
+**CustomSettings.ini** : Fichier de configuration principal pour les règles de traitement utilisées dans tous les scénarios. Le fichier reste dans le dossier de déploiement.
+**BootStrap.ini** : Fichier de configuration utilisé lorsque l’ordinateur cible n’est pas en mesure de se connecter au point de déploiement approprié. Cette situation survient dans un scénario de nouvel ordinateur et pour l’ordinateur de remplacement d’un scénario de remplacement d’ordinateur. Le fichier BootStrap.ini est intégré dans l’image de boot
+=> boostrap agit en 1er, mieux de modif custom car sinon doit tout mettre à jour
+=> si bootstrap pas bon peut baiser image
