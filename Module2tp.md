@@ -103,7 +103,8 @@ penser à bien mettre les droit de connexion
 https://docs.microsoft.com/fr-fr/windows/deployment/deploy-windows-mdt/use-the-mdt-database-to-stage-windows-10-deployment-information
 
 
-
 pour tester on prend l'adresse mac de 2vm puis on fait task pour 2 sur une puis 3 sur l'autres
 
+Machine ou c'est la on va ranger les computers
+la bdd est en priorité sur le truc des settings
 
