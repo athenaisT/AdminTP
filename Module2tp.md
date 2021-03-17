@@ -25,8 +25,6 @@ dans power sheel pc physique : Install-module –name OSDBuilder –scope Curren
 osbbuilder -> osbimport-> sources ou os pour trouvers boot ou install.
 
 
-
-
 winPe ne fait pas instalation il propser des image à installer
 
 
@@ -83,7 +81,14 @@ http://winux.overblog.com/2014/08/creation-d-un-master-avec-mdt.html
 
 
 manque des truc sir le dc à config, on doit créer une vm pour faire capture, donc on va lancer cette vm on va choisirr iso + les appli(task séquances) puis on fait uune capture
-et on va l'utiliser comme image de boot
+et on va l'utiliser comme image de boot ==> Master 
+le master est en faite une image fait avec une capture d'image ou on avit déjà 2 aplli et on fait une task sur la capture pour avoir lse 3 autres appli.
+penser à lancer en silicieux les applis => c'est pour installer sans display user (il voit pas l'installation)
+
+suivit de VM louis car ça marche pas chez nous
+
+on peut faire des deployment type compta que pour deployer ordi config pour compta etc ( en fonction de l'adresse mac etguid de l'ordi on le reconait comme ordi compta donc deployment compta)
+
 
 
 
