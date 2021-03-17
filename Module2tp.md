@@ -89,6 +89,8 @@ suivit de VM louis car ça marche pas chez nous
 
 on peut faire des deployment type compta que pour deployer ordi config pour compta etc ( en fonction de l'adresse mac etguid de l'ordi on le reconait comme ordi compta donc deployment compta)
 
+**sql express** MDT peut utiliser SQL Server Express ou un SQL Server existant. Cependant, étant donné que le déploiement de base de données n’est pas volumineux, même dans les environnements d’entreprise, nous recommandons l’utilisation de la base de données gratuite SQL Server2012 SP1 Express dans votre environnement.
+
 
 
 
