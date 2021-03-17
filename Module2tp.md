@@ -92,6 +92,6 @@ on peut faire des deployment type compta que pour deployer ordi config pour comp
 **sql express** MDT peut utiliser SQL Server Express ou un SQL Server existant. Cependant, étant donné que le déploiement de base de données n’est pas volumineux, même dans les environnements d’entreprise, nous recommandons l’utilisation de la base de données gratuite SQL Server2012 SP1 Express dans votre environnement.
 
 
-
+**lite-touch** Le déploiement LTI peut être réalisé avec ou quasiment sans assistance humaine mais dans la pratique, le Lite Touch est semi-automatisé chez la plupart des clients. Il est cependant réalisable d'automatiser entièrement (hormis le démarrage de la machine) un déploiement LTI avec MDT
 
 
