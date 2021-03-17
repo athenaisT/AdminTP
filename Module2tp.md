@@ -96,11 +96,13 @@ on peut faire des deployment type compta que pour deployer ordi config pour comp
 
 **lite-touch** Le déploiement LTI peut être réalisé avec ou quasiment sans assistance humaine mais dans la pratique, le Lite Touch est semi-automatisé chez la plupart des clients. Il est cependant réalisable d'automatiser entièrement (hormis le démarrage de la machine) un déploiement LTI avec MDT
 
-
+penser à bien mettre les droit de connexion
 
 # Atelier 5
 
 https://docs.microsoft.com/fr-fr/windows/deployment/deploy-windows-mdt/use-the-mdt-database-to-stage-windows-10-deployment-information
+
+
 
 pour tester on prend l'adresse mac de 2vm puis on fait task pour 2 sur une puis 3 sur l'autres
 
