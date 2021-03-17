@@ -107,4 +107,5 @@ pour tester on prend l'adresse mac de 2vm puis on fait task pour 2 sur une puis 
 
 Machine ou c'est la on va ranger les computers
 la bdd est en priorité sur le truc des settings
+la bdd sert à géré les deploiment a la place du fichier de config de merde (ça devient plus sécur car seul les gens qui ont bdd peuvent modif)
 
