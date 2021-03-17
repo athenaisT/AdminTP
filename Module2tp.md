@@ -59,6 +59,8 @@ Le premier intérêt de WDS est d’offrir une "dématérialisation" des DVD de 
 
 les scénario sont les task sequences
 
+# Atelier 4
+
 => https://www.it-connect.fr/overview-mdt-wds-winpe/
 
 BOOSTRAP.INI => sécu merdique + son role : donne des info à loa machine pour se co au partage de déploiement (donc des que modif on doit mettre à jour tout le lignt et wwds)
