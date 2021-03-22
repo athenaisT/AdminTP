@@ -15,9 +15,9 @@ Claire: 16
 Axel : 17
 Jérémy: 8
 
+Carte réseau virtuelle (vNIC)
 
-
-
+fair un virtual réseau seull axel à dhcp => on va se co à se réseau ensuite avec les vm pour tous etre sur le meme réseau
 
 
 
