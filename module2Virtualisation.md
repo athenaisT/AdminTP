@@ -42,3 +42,5 @@ pour le vmcenter mettre le port derrier l'addresse ip sinon marche pas
 
 truNAs => mdp : 123+qwe
 
+le dhcp donne une addresse pour l' eternet du pc physique
+
