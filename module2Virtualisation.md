@@ -37,3 +37,6 @@ et on se met sur la page 192.168.30.85 ou 86
 
 notre dns va etre notre routeur
 finalement on a fait un vyos
+
+truNAs => mdp : 123+qze
+
