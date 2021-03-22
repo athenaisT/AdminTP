@@ -11,8 +11,8 @@ cable love (prononcer lover) c'est l'enroulement
 cable:
 Athé : 6 
 Louis : 7
-Claire: 16
-Axel : 17
+Claire: 10
+Axel : 9
 Jérémy: 8
 
 **vNIC**:Carte réseau virtuelle 
