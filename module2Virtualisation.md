@@ -17,8 +17,9 @@ Jérémy: 8
 
 Carte réseau virtuelle (vNIC)
 
-fair un virtual réseau seull axel à dhcp => on va se co à se réseau ensuite avec les vm pour tous etre sur le meme réseau
+fair un virtual réseau seul axel à dhcp => on va se co à se réseau ensuite avec les vm pour tous etre sur le meme réseau
 
+suivre video diapo pour faire DNS => (faire par axel , fonctionnel)
 
 
 
