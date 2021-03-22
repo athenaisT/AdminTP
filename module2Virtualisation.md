@@ -40,5 +40,5 @@ finalement on a fait un vyos
 
 pour le vmcenter mettre le port derrier l'addresse ip sinon marche pas
 
-truNAs => mdp : 123+qze
+truNAs => mdp : 123+qwe
 
