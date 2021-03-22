@@ -30,3 +30,10 @@ V?zqre11(mais maj)
 
 la net1 => .85
 la net =>.86
+
+il faut faut mettre sur les vm sur le network du dns puis on met sur la bonne carte et on met vmnet2
+puis on met une adresse fixe à ethernet3 (.13)
+et on se met sur la page 192.168.30.85 ou 86
+
+notre dns va etre notre routeur
+finalement on a fait un vyos
