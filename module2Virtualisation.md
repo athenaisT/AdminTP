@@ -75,6 +75,9 @@ son intérêt : réfractaires au départ, tous les constructeurs de stockage ont
  
  **OpenZFS** :t un projet visant à rendre ZFS plus largement utilisé et développé de manière open source.
  
+ **Un ZVOL**:  est un périphérique bloc ZFS qui réside dans votre pool de stockage
+ https://pthree.org/2012/12/21/zfs-administration-part-xiv-zvols/
  
+ **ova**(Open Virtual Appliance). Open Virtualization Format (OVF) est un format de fichier qui prend en charge l'échange de dispositifs virtuels entre les produits et les plate-formes. OVA est une distribution de fichier unique du même module de fichier
  
  
