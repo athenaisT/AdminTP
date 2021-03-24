@@ -46,8 +46,20 @@ le dhcp donne une addresse pour l' eternet du pc physique
 
 
 **Un hyperviseur** : également appelé moniteur de machine virtuelle, est un processus qui crée et exécute des machines virtuelles (VM). Il permet à un ordinateur hôte de prendre en charge plusieurs VM clientes en partageant virtuellement ses ressources, telles que la mémoire et la capacité de traitement.
+=> outils de virtualisation
+
+**Définition d'un Hyperviseur :**
+Si on souhaite définir un hyperviseur, on peut dire qu'il s'agit d'un outil de virtualisation qui permet à plusieurs systèmes d'exploitation (OS) de fonctionner simultanément sur une même machine physique.
+
+Théoriquement, c'est une couche logicielle très légère (en comparaison à un OS classique) qui permet d'allouer un maximum de ressources physiques aux machines virtuelles.
 
 
 Le **SAN** permet de présenter du stockage à des serveurs via un réseau dédié. 
 Le **NAS** permet quand à lui de disposer d'un système de fichiers accessible depuis n'importe quel appareil équipé d'un protocole compatible.
+=> san coute chere et le nas lui c'est un peu fait une place dans les familles
+
+pour faire le datastorage on va sur l'addressse ip (la ou ya vmware log+mdp)
+
+
+
 
