@@ -54,9 +54,10 @@ Si on souhaite définir un hyperviseur, on peut dire qu'il s'agit d'un outil de 
 Théoriquement, c'est une couche logicielle très légère (en comparaison à un OS classique) qui permet d'allouer un maximum de ressources physiques aux machines virtuelles.
 
 
-Le **SAN** permet de présenter du stockage à des serveurs via un réseau dédié. 
+Le **SAN**( Un réseau de zone de stockage) permet de présenter du stockage à des serveurs via un réseau dédié. 
 Le **NAS** permet quand à lui de disposer d'un système de fichiers accessible depuis n'importe quel appareil équipé d'un protocole compatible.
 => san coute chere et le nas lui c'est un peu fait une place dans les familles
+=> nas serveur de stockage mais peut etre un pc etc..   et san 
 
 pour faire le datastorage on va sur l'addressse ip (la ou ya vmware log+mdp)
 
