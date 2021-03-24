@@ -8,12 +8,12 @@ vsca :Depuis la version 5.0 de vSphere, vCenter est disponible sous forme d'appl
 On est sur vlan 30
 cable love (prononcer lover) c'est l'enroulement
 
-cable:
-Athé : 6 
-Louis : 7
-Claire: 10
-Axel : 9
-Jérémy: 8
+cable: </br>
+Athé : 6 </br>
+Louis : 7 </br>
+Claire: 10  </br>
+Axel : 9  </br>
+Jérémy: 8  </br>
 
 **vNIC**:Carte réseau virtuelle 
 
