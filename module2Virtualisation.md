@@ -70,3 +70,11 @@ Fibre Channel permet le raccordement avec son système de stockage par de la Fib
 son intérêt : réfractaires au départ, tous les constructeurs de stockage ont finalement intégré l’iSCSI à leur catalogue. </br>
 
  **iSCSI**:(Internet Small Computer System Interface). C'est un protocole de stockage en réseau basé sur le protocole IP destiné à relier les installations de stockage de données.
+ 
+**Type de fichier ZFS**: un système de fichiers open source sous licence CDDL. Les caractéristiques de ce système de fichiers sont sa très haute capacité de stockage, l'intégration de tous les concepts précédents concernant les systèmes de fichiers et la gestion de volume.
+ 
+ **OpenZFS** :t un projet visant à rendre ZFS plus largement utilisé et développé de manière open source.
+ 
+ 
+ 
+ 
