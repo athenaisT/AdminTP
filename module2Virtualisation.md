@@ -57,7 +57,7 @@ Théoriquement, c'est une couche logicielle très légère (en comparaison à un
 Le **SAN**( Un réseau de zone de stockage) permet de présenter du stockage à des serveurs via un réseau dédié. </br>
 Le **NAS** permet quand à lui de disposer d'un système de fichiers accessible depuis n'importe quel appareil équipé d'un protocole compatible.
 => san coute chere et le nas lui c'est un peu fait une place dans les familles 
-=> nas serveur de stockage mais peut etre un pc etc..   
+=> nas serveur de stockage mais peut etre un pc etc.. alors que san il y a du materiel dedier  
 => san les systeme fichier voient les baies de stockage comme leur disk dur mais ne voient que ceux qui leurs sont attribuer alors que nas ils voient tout
 
 => san disk dur et nas un dossier partager
@@ -65,5 +65,8 @@ Le **NAS** permet quand à lui de disposer d'un système de fichiers accessible 
 pour faire le datastorage on va sur l'addressse ip (la ou ya vmware log+mdp)
 
 
+**Fibre Channel FCoE** : (Fibre Channel over Ethernet) est un protocole qui encapsule les trames Fibre Channel, provenant d'un réseau de stockage SAN, sur un réseau Ethernet1
+Fibre Channel permet le raccordement avec son système de stockage par de la Fibre, tandis que l’iSCSI est encapsulé sur un réseau Ethernet standard
+son intérêt : réfractaires au départ, tous les constructeurs de stockage ont finalement intégré l’iSCSI à leur catalogue. </br>
 
-
+ **iSCSI**:(Internet Small Computer System Interface). C'est un protocole de stockage en réseau basé sur le protocole IP destiné à relier les installations de stockage de données.
