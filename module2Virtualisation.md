@@ -26,7 +26,7 @@ suivre video diapo pour faire DNS => (faire par axel , fonctionnel)
 
 **vmcenter** :VMware vCenter Server est un logiciel de gestion de serveurs avancée qui vous offre une plate-forme centralisée pour le contrôle de vos environnements VMware vSphere et vous permet d'automatiser et de fournir une infrastructure virtuelle dans l'ensemble du Cloud hybride en toute confiance.
 
-V?zqre11(mais maj)
+V?zqre11(dernier 1 en maj)
 
 la net1 => .85
 la net =>.86
@@ -48,5 +48,6 @@ le dhcp donne une addresse pour l' eternet du pc physique
 **Un hyperviseur** : également appelé moniteur de machine virtuelle, est un processus qui crée et exécute des machines virtuelles (VM). Il permet à un ordinateur hôte de prendre en charge plusieurs VM clientes en partageant virtuellement ses ressources, telles que la mémoire et la capacité de traitement.
 
 
-
+Le **SAN** permet de présenter du stockage à des serveurs via un réseau dédié. 
+Le **NAS** permet quand à lui de disposer d'un système de fichiers accessible depuis n'importe quel appareil équipé d'un protocole compatible.
 
