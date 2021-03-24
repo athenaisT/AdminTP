@@ -81,3 +81,9 @@ son intérêt : réfractaires au départ, tous les constructeurs de stockage ont
  **ova**(Open Virtual Appliance). Open Virtualization Format (OVF) est un format de fichier qui prend en charge l'échange de dispositifs virtuels entre les produits et les plate-formes. OVA est une distribution de fichier unique du même module de fichier
  
  
+ 
+ 
+ 
+ 
+ 
+ 
