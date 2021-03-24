@@ -44,3 +44,9 @@ truNAs => mdp : 123+qwe
 
 le dhcp donne une addresse pour l' eternet du pc physique
 
+
+**Un hyperviseur** : également appelé moniteur de machine virtuelle, est un processus qui crée et exécute des machines virtuelles (VM). Il permet à un ordinateur hôte de prendre en charge plusieurs VM clientes en partageant virtuellement ses ressources, telles que la mémoire et la capacité de traitement.
+
+
+
+
