@@ -60,6 +60,8 @@ Le **NAS** permet quand à lui de disposer d'un système de fichiers accessible 
 => nas serveur de stockage mais peut etre un pc etc..   
 => san les systeme fichier voient les baies de stockage comme leur disk dur mais ne voient que ceux qui leurs sont attribuer alors que nas ils voient tout
 
+=> san disk dur et nas un dossier partager
+
 pour faire le datastorage on va sur l'addressse ip (la ou ya vmware log+mdp)
 
 
