@@ -86,15 +86,36 @@ son intérêt : réfractaires au départ, tous les constructeurs de stockage ont
 **vCenter**:permet de gérer exsi de maniere centralisé, on peut faire plus de chose pour gérer les vm avec, les vm sont représenter que par des fichier et donc peuvent etre migré
 **exsi**: communique sur le port 443 avec vcenter, il est piloter via un agent telecharger quand on va relier vcenter et lui 
  **Un LUN** (Logical Unit Number) désigne, dans le domaine du stockage informatique, le numéro d'unité logique d'un équipement SCSI
- **drs** une fonctionnalité qui permet d'equilibré la charge (gpu et ?), ne marche que avec vcenter
- 
- réseau:
- 
+ **drs** une fonctionnalité qui permet d'equilibré la charge cpuram (gpu et ?), ne marche que avec vcenter 
  **cluster**: y'a une banque de pulsastion qui dit si y' a des exsi libre ou non
- 
- 
- cluster:
- 
+**vpxa** c'est un agent qui va etre active quand joint a un vcenter et va piloter cet agent
+**ha** permet de voir la haute disponiblité des exsi , il les redemarre et les bascule pas
+
+a regarder :
+Vcenter,
+HA, 
+DRS, 
+Vmotion 
+Storage 
+VMotion
+LUN 
+DATAStore 
+Agents 
+Dossiers 
+Autorisations 
+Raid 
+type de provisionnements
+déduplication, 
+iscsi
+taget
+
+spher6 -admin et exploit
+    0.2VM=> 0.1-les composant machines virtuel ( on en est a la version 17), 02(celle qui suit 0.1), 0.4 diff etat vm
+ 1. 0.3HA=> 6 premiere
+ 2. 
+
+
+
  
  
  
