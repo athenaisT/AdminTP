@@ -109,3 +109,18 @@ Machine ou c'est la on va ranger les computers
 la bdd est en priorité sur le truc des settings
 la bdd sert à géré les deploiment a la place du fichier de config de merde (ça devient plus sécur car seul les gens qui ont bdd peuvent modif)
 
+
+----
+mdt sécu : on creer un utlisateur mdt specification pour et on lui del  les droit pour ajouter une machine dans le domaine; et il a les droit sur deploiement share (car interdit de mettre log admin car mdp en claire).
+
+sysprep : detruit personnalisation de la machine/windows (c'est pour quand tu clone machine custom pb comme peut pas te co au domaine)
+
+master: c'est une capture de l'etat d'une machine qui va servir de model (on utilise winpe), on va utliser la capture comme image pour les autres
+
+image thin: windomxs sans custom
+
+image thick: windows + logiciel( ex:zip)
+
+image hybride: le faitre c'utliser image thick avec un deploiement personnaliser (ex ya que informatique qui utlise vmware et pas compta)
+
+
