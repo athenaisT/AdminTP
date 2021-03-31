@@ -154,3 +154,8 @@ vmotion => depalcer vm à chaus (pas besoin de l'éteindre) d'un exsi vers un au
  DPM => optimisation de la conso des esxi
  vCls => machine de base obligatoir
  content laibraies : emplacement de stockage  avec (iso + ovf /ova)
+ 
+ c/windows/32/sysprep
+sysprep => capture  et master image de base
+
+ha !=**La tolérance aux pannes** est l'aptitude d'un système informatique à demeurer fonctionnel malgré certaines pannes de ses constituants.
