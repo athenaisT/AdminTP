@@ -89,7 +89,9 @@ son intérêt : réfractaires au départ, tous les constructeurs de stockage ont
  **drs** une fonctionnalité qui permet d'equilibré la charge cpuram (gpu et ?), ne marche que avec vcenter 
  **cluster**: y'a une banque de pulsastion qui dit si y' a des exsi libre ou non
 **vpxa** c'est un agent qui va etre active quand joint a un vcenter et va piloter cet agent
-**ha** permet de voir la haute disponiblité des exsi , il les redemarre et les bascule pas
+**ha** permet de voir la haute disponiblité des exsi , il les redemarre et les bascule pas, disponiblité des serveur et pas des machines! 
+
+
 
 a regarder :
 Vcenter,
@@ -115,9 +117,40 @@ spher6 -admin et exploit
  2. 
 
 
+-----
+
+type 1 : dépent pas d'un os gere lui meme
+type 2 : depend os
 
  
  
+ ncréation isci: - faire pool (ensemble de disk),  raid 5 (5 disk au min et on peut en perdre 1), raid z
+       - ZVol (donc on affect un volume apelle lun)
+       - on va config le portail (on va sur TrueNAs le truc ou on va config) on va dans portail et on met 0.0.0.0 pour ip addresse c'est pour dire j'accepte toutes les requete de tout le monde (port 3260 de base) portail ouverture du truenas sur le réseau
+       - iniator c'est qui qui va se co sur mon truenas
+       - iqn=>id des esxi
+       - targets : c'est qu'est ce que va voir l'initair qui va se co (la ou on va mettre le nom lun)
+       - extents => c'est quel volume on va utliser, xen c'est un hyperviseur existant, jamais mettre read-only
+       - associated targer => on prend target (portail+initiator) + extents
+       - puis on va dans service et on le fait running
+       - il faut ensuite y lié au exsi, on se co sur un esxi (192.168.30.85),adpataters=> softaware dynamic target on rentre ip du true nas+port
+       - dans device on voit truenas pour verif (il est vue comme les autres disk)
+       - refaire la partie liason exsi et la ils on un stockage commun
+
+vSphere: - on ajoute un datacenter (organistaion comme une ou)
+         - on crer un new datasrore et selectionner le Lun
+         - crer cluster et on va sur les exsi ajouter
+         - on va créer nos vm sur nos serveur
+vmotion => depalcer vm à chaus (pas besoin de l'éteindre) d'un exsi vers un autre
+
+=> grace au drs , quand on lance vm c'est lui qui choisis sur quel serveur la lancer et faire la répartition
+=> utlis car si un serveur tombe les vm peut etre deplacer dans l'immédiat
+              
+ cluster : plein de serveur qui travaille ensemble comme un super serveur
  
+ fqdn: (fauly qualifed domain name) => son nom (serveur)+ son nom domaine + extension de domaine
  
- 
+ cpu over-comminent: sucharge de la repartition des coueurs
+ DPM => optimisation de la conso des esxi
+ vCls => machine de base obligatoir
+ content laibraies : emplacement de stockage  avec (iso + ovf /ova)
