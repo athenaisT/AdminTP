@@ -26,6 +26,8 @@ suivre video diapo pour faire DNS => (faire par axel , fonctionnel)
 
 **vmcenter** :VMware vCenter Server est un logiciel de gestion de serveurs avancée qui vous offre une plate-forme centralisée pour le contrôle de vos environnements VMware vSphere et vous permet d'automatiser et de fournir une infrastructure virtuelle dans l'ensemble du Cloud hybride en toute confiance.
 
+**vSphere**:  est la plateforme de virtualisation de serveurs de VMware
+
 V?zqre11(dernier 1 en maj)
 
 la net1 => .85
